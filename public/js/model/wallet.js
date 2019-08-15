@@ -643,7 +643,7 @@ Wallet.prototype.getDelegations = function () {
                 .then(function (response) {
                     if (response.result) {
                         response.result.states.forEach(function (/** @type {MetaHashDelegation} */ state) {
-                            if(state.to !== ADDRESS_FORGING){
+                            if(state.to !== ADDRESS_FORGING && state.to !== ADDRESS_NODE_REGISTRATOR){
                                 if (typeof this.delegations[state.to] === "undefined"){
                                     this.delegations[state.to] = new Delegation({wallet: this, state: state});
                                 } else {
