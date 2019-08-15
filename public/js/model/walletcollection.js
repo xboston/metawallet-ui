@@ -142,7 +142,7 @@ WalletCollection.prototype.getRate = function (baseCurrency, currency) {
     let rate1 = this.rates[DEFAULT_BASE_CURRENCY + "-" + baseCurrency];
     let rate2 = this.rates[DEFAULT_BASE_CURRENCY + "-" + currency];
 
-    return rate2 / rate1;
+    return (rate2 * 1000 / rate1 * 1000) / 1000;
 };
 
 /**
