@@ -594,10 +594,10 @@ Wallet.prototype.getRewards = function () {
         return;
     }
 
-    xhr(getJsonRpcXhrParams("plus.address.rewards", {params: {address: this.address, countTxs: 25}}, this.currencyId))
+    xhr(getJsonRpcXhrParams("fetch-history-filter", {params: {address: this.address, filters:{isForging: true} ,countTxs: 25}}, this.currencyId))
         .then(function (response) {
             if (response.result) {
-                response.result.forEach(function (/** @type {MetaHashTransaction} */ transaction) {
+                response.result.txs.forEach(function (/** @type {MetaHashTransaction} */ transaction) {
                     this.rewardsTransaction.push(new Transaction({walletCollection: this.walletCollection, currency: this.currency, wallet: this, transaction: transaction}));
                 }.bind(this));
                 Events.trigger("Wallet.onRewardsTransactionsFetched", {wallet: this});

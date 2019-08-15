@@ -1,5 +1,5 @@
 const VERSION = "1.0";
-const VERSION_BUILD = "24";
+const VERSION_BUILD = "25";
 const VERSION_APP = "1.0.3.4";
 
 const NODE_PORT_PROXY = 9999;
@@ -22,7 +22,6 @@ const API_ENDPOINT_TOR_TEST = "https://tor-dev.metawat.ch/";
 const API_ENDPOINT_PROXY = "https://proxy.metawat.ch/";
 const API_ENDPOINT_PROXY_TEST = "https://proxy-dev.metawat.ch/";
 const API_ENDPOINT_APP = "https://app.metahash.org/api/";
-const API_ENDPOINT_PLUS = "https://plus.metawat.ch/api/";
 const API_ENDPOINT_NETREGISTRY = "https://netregistry.metahash.io/api/";
 
 /** @link https://www.cloudflare.com/distributed-web-gateway/ */
