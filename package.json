@@ -1,0 +1,9 @@
+{
+  "name": "metawallet-ui",
+  "version": "1.0.0",
+  "description": "metawallet-ui",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}
