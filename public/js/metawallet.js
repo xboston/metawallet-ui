@@ -188,7 +188,7 @@ MetaWallet.prototype.initUser = function () {
 MetaWallet.prototype.onUserAuth = function () {
     this.walletCollection = new WalletCollection({app: this});
     this.nodesCollection = new NodeCollection({app: this});
-    this.switchView(new window[DEFAULT_VIEW](/** @type {ViewConfig} */ {app: this}));
+    this.switchView(new CurrenciesView(/** @type {ViewConfig} */ {app: this}));
 };
 
 /**
