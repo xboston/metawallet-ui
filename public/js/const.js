@@ -1,5 +1,5 @@
 const VERSION = "1.0";
-const VERSION_BUILD = "25";
+const VERSION_BUILD = "26";
 const VERSION_APP = "1.0.3.4";
 
 const NODE_PORT_PROXY = 9999;
@@ -99,8 +99,6 @@ const DEFAULT_BASE_PERIOD = "day";
 const DEFAULT_WALLETS_SHOW = 1;
 const DEFAULT_RATE_PERIOD = 10 * 60 * 1000;
 
-const DEFAULT_VIEW = "CurrenciesView";
-
 const DEFAULT_USER_EMAIL = "_unregistered";
 
 // ui animations
@@ -163,7 +161,7 @@ const TRANSACTIONS_PER_FETCH = 20;
 const PROXYNODE_HARDCAP = 1e13;
 const PROXYNODE_HARDCAP_SOFT = 1e12;
 const PROXYNODE_BALANCE_START = 1e11;
-const BALANCE_DELEGATION_MIN = 1;// 512e6; // @info test
+const BALANCE_DELEGATION_MIN = 512e6; // @info test
 
 const PAYMENT_METAPAY = 1;
 const PAYMENT_DELEGATE = 2;

@@ -144,6 +144,7 @@ User.prototype.auth = function (formData) {
                     this.app.showNotification({text: __("error.unknown"), type: NOTIFICATION_ERROR, hideTimeout: UI_ERROR_NOTIFICATION_LONG_TIMEOUT * 1000});
                 }
             } else {
+                console.log("response",response);
                 this.app.showNotification({text: __("error.connection"), type: NOTIFICATION_ERROR, hideTimeout: UI_ERROR_NOTIFICATION_LONG_TIMEOUT * 1000});
             }
         }.bind(this));
