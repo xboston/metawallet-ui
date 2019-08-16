@@ -1,5 +1,5 @@
 const VERSION = "1.0";
-const VERSION_BUILD = "25";
+const VERSION_BUILD = "26";
 const VERSION_APP = "1.0.3.4";
 
 const NODE_PORT_PROXY = 9999;
