@@ -106,8 +106,8 @@ PullToRefresh.prototype.initSpinnerElement = function () {
  * @return {HTMLElement|xD}
  */
 PullToRefresh.prototype.initGradientElement = function () {
-    if (this.element.parentNode.querySelector('.pulltorefresh-gradient')) {
-        return xD(this.element.querySelector('.pulltorefresh-gradient'));
+    if (this.element.parentNode.querySelector(".pulltorefresh-gradient")) {
+        return xD(this.element.querySelector(".pulltorefresh-gradient"));
     } else {
         let gradientElement = xD(document.createElement("div"));
         gradientElement.className = "pulltorefresh-gradient";
