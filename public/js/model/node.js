@@ -21,6 +21,8 @@ class ServerNode {
         /** @type {string} */
         this.name = nodeConfig.name;
         /** @type {string} */
+        this.type = nodeConfig.type;
+        /** @type {string} */
         this.balance = JSON.parse(nodeConfig.balance);
         /** @type {string} */
         this.bech = JSON.parse(nodeConfig.bench);

@@ -39,6 +39,7 @@ class NodeView extends View {
         this.element.setAttribute("data-dapp-address", this.node.address);
         this.element.querySelector(".page-nav-center").innerHTML = BlockchainLib.hashCollapse(this.node.address);
         this.element.querySelector(".wallet-node-title").innerHTML = this.node.name;
+        this.element.querySelector(".wallet-node-type").innerHTML = this.node.type.join();
         this.element.querySelector(".wallet-node-value").innerHTML = this.node.getDelegations();
         const nodeStatusClass = "wallet-delegation-status--" + this.node.getNodeStatusColor();
         this.element.querySelector(".wallet-delegation-status").classList.add(nodeStatusClass);
