@@ -135,17 +135,17 @@ window.appLang = {
     "wallets.settings.base.currency.1000": "USD",
 
     "currenciesview.totalassetsvalue": "Total Assets Value",
-    "currenciesview.tab.currencies": "Currencies",
+    "currenciesview.tab.currencies": "Валюты",
     "currenciesview.tab.wallets": "Recent Wallets",
 
     // WalletsView
 
-    "walletsview.tab.wallets": "Wallets",
+    "walletsview.tab.wallets": "Кошельки",
     "walletsview.tab.latesttransactions": "Latest Transactions",
 
     // WalletView
 
-    "createwalletview.title": "Create new wallet",
+    "createwalletview.title": "Создать кошелёк",
 
     // TransferView
 
@@ -166,12 +166,12 @@ window.appLang = {
 
     // SettingsView
 
-    "settings.title": "Settings",
+    "settings.title": "Настройки",
 
     "settings.locale.en": "English",
     "settings.locale.ru": "Русский",
 
-    "settings.cache.cleaned": "Cache cleaned",
+    "settings.cache.cleaned": "Кеш очищен",
 
     // PasswordSettingsView
 
@@ -253,7 +253,7 @@ window.appLang = {
 
     "node.geo.us": "Америка",
     "node.geo.eu": "Европа",
-    "node.geo.cn": "Азиа",
+    "node.geo.cn": "Азия",
     "node.geo.undefined": "не определено",
 
     // NodeView
