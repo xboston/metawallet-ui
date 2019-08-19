@@ -193,6 +193,7 @@ class MetaWallet extends App {
         Object.keys(steps).forEach(function ( /** @type {string} */ i) {
             if (!parseInt(this.settings.get("tutorial." + i, 0))) {
                 if (steps[i].type === VIEW_ALERT) {
+                    // @todo https://github.com/xboston/metawallet-ui/issues/9
                     this.alertView(new window[steps[i].view]( /** @type {ViewConfig} */ {
                             app: this
                         }))

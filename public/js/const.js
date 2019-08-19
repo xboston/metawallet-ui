@@ -23,6 +23,7 @@ const API_ENDPOINT_PROXY = "https://proxy.metawat.ch/";
 const API_ENDPOINT_PROXY_TEST = "https://proxy-dev.metawat.ch/";
 const API_ENDPOINT_APP = "https://app.metahash.org/api/";
 const API_ENDPOINT_NETREGISTRY = "https://netregistry.metahash.io/api/";
+const API_ENDPOINT_ICONS = "https://icons.metahash.io/";
 
 /** @link https://www.cloudflare.com/distributed-web-gateway/ */
 const API_ENDPOINT_ETHEREUM = "https://cloudflare-eth.com/";
