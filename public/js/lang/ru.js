@@ -134,14 +134,14 @@ window.appLang = {
     "wallets.settings.base.currency.4": "MHC",
     "wallets.settings.base.currency.1000": "USD",
 
-    "currenciesview.totalassetsvalue": "Total Assets Value",
+    "currenciesview.totalassetsvalue": "Общая стоимость",
     "currenciesview.tab.currencies": "Валюты",
-    "currenciesview.tab.wallets": "Recent Wallets",
+    "currenciesview.tab.wallets": "Недавние кошельки",
 
     // WalletsView
 
     "walletsview.tab.wallets": "Кошельки",
-    "walletsview.tab.latesttransactions": "Latest Transactions",
+    "walletsview.tab.latesttransactions": "Недавние транзакции",
 
     // WalletView
 
