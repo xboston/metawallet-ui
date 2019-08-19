@@ -6,47 +6,47 @@ window.appLang = {
 
     // errors
 
-    "error.error": "Error",
-    "error.unknown": "Unknown error",
-    "error.connection": "Connection problem",
-    "error.connection.offline": "Offline mode",
-    "error.connection.online": "Online mode",
-    "error.notavailable": "Not available in current version",
-    "error.availableonlyinmetagate": "Available only in desktop MetaGate",
+    "error.error": "Ошибка",
+    "error.unknown": "Неизвестная ошибка",
+    "error.connection": "Ошибка соединения",
+    "error.connection.offline": "Автономный режим",
+    "error.connection.online": "Онлайн режим",
+    "error.notavailable": "Недоступно в текущей версии",
+    "error.availableonlyinmetagate": "Доступно только в настольном MetaGate",
     "error.unknown.domain": "Unknown domain",
-    "error.emptyfields": "Fill in all required fields",
+    "error.emptyfields": "Заполните все обязательные поля",
     "error.wrongqrcode": "No data found in scanned QR code",
-    "error.wrongpassword": "Wrong password",
-    "error.wrongpasscode": "Wrong passcode",
-    "error.wrongfaceid": "Authentication error",
-    "error.passwordsdonotmatch": "Passwords do not match",
-    "error.passwordshort": "New password too simple. Minimum length: ",
-    "error.notenoughfunds": "Not enough funds",
-    "error.pknotfound": "Private key not found on the device",
+    "error.wrongpassword": "Неправильный пароль",
+    "error.wrongpasscode": "Неправильный код-пароль",
+    "error.wrongfaceid": "Ошибка аутентификации",
+    "error.passwordsdonotmatch": "Пароли не совпадают",
+    "error.passwordshort": "Новый пароль слишком короткий. Минимальная длина:",
+    "error.notenoughfunds": "Недостаточно средств",
+    "error.pknotfound": "Закрытый ключ не найден на устройстве",
     "error.wrongname": "Wrong name",
 
     // success
 
     "success.success": "Success",
-    "success.imported": "Import successful",
+    "success.imported": "Импорт выполнен успешно",
 
     // common
 
     "common.version": "Interface ver. " + VERSION + "." + VERSION_BUILD + ". Application ver. " + VERSION_APP, // + metawallet.env.appVersion + "." + metawallet.env.build,
-    "common.copyright": "Copyright © 2017-2019 #MetaHash.  All Rights Reserved",
+    "common.copyright": "© 2017-2019 #MetaHash.  Все права защищены",
 
-    "common.enabled": "Enabled",
-    "common.disabled": "Disabled",
-    "common.activated": "Activated",
-    "common.copied": "Copied",
-    "common.saved": "Saved",
+    "common.enabled": "Включено",
+    "common.disabled": "Отключено",
+    "common.activated": "Активировано",
+    "common.copied": "Скопировано",
+    "common.saved": "Сохранено",
 
     "common.ok": "OK",
-    "common.cancel": "Cancel",
-    "common.yes": "Yes",
-    "common.no": "No",
+    "common.cancel": "Отмена",
+    "common.yes": "Да",
+    "common.no": "Нет",
 
-    "common.pleasewait": "Action in progress...",
+    "common.pleasewait": "Выполняется...",
 
     "currency.tmh": "TMH",
     "currency.btc": "BTC",
@@ -54,7 +54,7 @@ window.appLang = {
     "currency.mhc": "MHC",
     "currency.usd": "USD",
 
-    "action.continue": "Continue",
+    "action.continue": "Далее",
 
     // Transaction
 
@@ -73,27 +73,27 @@ window.appLang = {
 
     // MenuView
 
-    "menu.home": "Home",
-    "menu.apps": "Apps",
-    "menu.settings": "Settings",
-    "menu.support": "Support",
-    "menu.logout": "Log out",
+    "menu.home": "Главная",
+    "menu.apps": "Приложения",
+    "menu.settings": "Настройки",
+    "menu.support": "Поддержка",
+    "menu.logout": "Выход",
 
     // PasscodeAlertView
 
-    "passcodemodalview.title": "Enter Passcode",
-    "passcodemodalview.title.new": "Enter New Passcode",
-    "passcodemodalview.title.repeat": "Repeat New Passcode",
-    "passcodemodalview.subtitle": "or use Face ID / Touch ID",
+    "passcodemodalview.title": "Введите пароль",
+    "passcodemodalview.title.new": "Введите новый пароль",
+    "passcodemodalview.title.repeat": "Повторите новый пароль",
+    "passcodemodalview.subtitle": "или используйте Face ID / Touch ID",
 
-    "settings.passcode.changed": "Passcode changed",
-    "settings.passcode.turnedon": "Passcode turned on",
-    "settings.passcode.turnedoff": "Passcode turned off",
+    "settings.passcode.changed": "Код-пароль изменен",
+    "settings.passcode.turnedon": "Код-пароль включен",
+    "settings.passcode.turnedoff": "Код-пароль выключен",
 
     // LoaderView
 
-    "loaderview.message.connected": "Connected!",
-    "loaderview.message.connecting": "Connecting...",
+    "loaderview.message.connected": "Подключено!",
+    "loaderview.message.connecting": "Соединение...",
 
     "loaderview.tips.header": "TIP ",
     "loaderview.tips.tip1": "Remember to keep the password yourself!",
@@ -109,7 +109,7 @@ window.appLang = {
 
     // AuthView
 
-    "auth.error.usernotfound": "User not found",
+    "auth.error.usernotfound": "Пользователь не найден",
 
     // ResetPasswordView
 
@@ -251,10 +251,10 @@ window.appLang = {
 
     // GEO
 
-    "node.geo.us": "America",
-    "node.geo.eu": "Europe",
-    "node.geo.cn": "Asia",
-    "node.geo.undefined": "undefined",
+    "node.geo.us": "Америка",
+    "node.geo.eu": "Европа",
+    "node.geo.cn": "Азиа",
+    "node.geo.undefined": "не определено",
 
     // NodeView
     "nodeview.error.notenoghfunds": "Not enough funds for delegation",
