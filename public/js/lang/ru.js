@@ -13,9 +13,9 @@ window.appLang = {
     "error.connection.online": "Онлайн режим",
     "error.notavailable": "Недоступно в текущей версии",
     "error.availableonlyinmetagate": "Доступно только в настольном MetaGate",
-    "error.unknown.domain": "Unknown domain",
+    "error.unknown.domain": "Неизвестный домен",
     "error.emptyfields": "Заполните все обязательные поля",
-    "error.wrongqrcode": "No data found in scanned QR code",
+    "error.wrongqrcode": "В отсканированном QR-коде не найдены данные",
     "error.wrongpassword": "Неправильный пароль",
     "error.wrongpasscode": "Неправильный код-пароль",
     "error.wrongfaceid": "Ошибка аутентификации",
@@ -23,16 +23,16 @@ window.appLang = {
     "error.passwordshort": "Новый пароль слишком короткий. Минимальная длина:",
     "error.notenoughfunds": "Недостаточно средств",
     "error.pknotfound": "Закрытый ключ не найден на устройстве",
-    "error.wrongname": "Wrong name",
+    "error.wrongname": "Неправильное имя",
 
     // success
 
-    "success.success": "Success",
+    "success.success": "Успешно",
     "success.imported": "Импорт выполнен успешно",
 
     // common
 
-    "common.version": "Interface ver. " + VERSION + "." + VERSION_BUILD + ". Application ver. " + VERSION_APP, // + metawallet.env.appVersion + "." + metawallet.env.build,
+    "common.version": "Версия интерфейса. " + VERSION + "." + VERSION_BUILD + ". Версия приложения. " + VERSION_APP, // + metawallet.env.appVersion + "." + metawallet.env.build,
     "common.copyright": "© 2017-2019 #MetaHash.  Все права защищены",
 
     "common.enabled": "Включено",
@@ -58,15 +58,15 @@ window.appLang = {
 
     // Transaction
 
-    "transaction.metahash.name.1": "Approve",
-    "transaction.metahash.name.20": "Transfer to address",
-    "transaction.metahash.name.101": "Wallet reward",
-    "transaction.metahash.name.102": "Node reward",
-    "transaction.metahash.name.103": "Coin reward",
-    "transaction.metahash.name.104": "Random reward",
-    "transaction.metahash.name.forging": "Start Forging",
-    "transaction.metahash.name.forging.active": "Start Active Forging",
-    "transaction.metahash.name.forging.stop": "Stop Forging",
+    "transaction.metahash.name.1": "Подтвердить",
+    "transaction.metahash.name.20": "Перевод",
+    "transaction.metahash.name.101": "Фиксированная награда (за пассивный форджинг)",
+    "transaction.metahash.name.102": "Награда за сервер",
+    "transaction.metahash.name.103": "Награда за делегирование",
+    "transaction.metahash.name.104": "Рандомная награда (за активный форджинг)",
+    "transaction.metahash.name.forging": "Начать форджинг",
+    "transaction.metahash.name.forging.active": "Начать активный форджинг",
+    "transaction.metahash.name.forging.stop": "Остановить форджинг",
 
     // System wallets
     "wallets.metahash.name.0x666174686572206f662077616c6c65747320666f7267696e67": "#MetaForging",
@@ -96,7 +96,7 @@ window.appLang = {
     "loaderview.message.connecting": "Соединение...",
 
     "loaderview.tips.header": "TIP ",
-    "loaderview.tips.tip1": "Remember to keep the password yourself!",
+    "loaderview.tips.tip1": "Не забудьте сохранить пароль!",
     "loaderview.tips.tip2": "We never save your password anywhere.",
     "loaderview.tips.tip3": "Please keep your keys safely. Keep in mind that if you lose them, your keys cannot be recovered.",
     "loaderview.tips.tip4": "Don\u2019t delete the app in order not to lose all of its data.",
@@ -113,21 +113,21 @@ window.appLang = {
 
     // ResetPasswordView
 
-    "resetpassword.ok": "Password reset link has been sent to your e-mail address",
+    "resetpassword.ok": "На ваш e-mail отправлена ссылка для сброса пароля",
 
     // TermsView
 
-    "termsview.needagree": "Please read and agree with terms and conditions to continue",
+    "termsview.needagree": "Прочитайте и согласитесь с условиями, чтобы продолжить",
 
     // CreateAccountView
 
-    "register.error.emailexists": "Account with this e-mail address already exists",
+    "register.error.emailexists": "Учетная запись с этим e-mail уже существует",
 
     // CurrenciesView
 
-    "wallets.settings.base.period.day": "24H",
-    "wallets.settings.base.period.week": "7 DAYS",
-    "wallets.settings.base.period.month": "1 MONTH",
+    "wallets.settings.base.period.day": "24 часа",
+    "wallets.settings.base.period.week": "7 дней",
+    "wallets.settings.base.period.month": "1 месяц",
     "wallets.settings.base.currency.1": "TMH",
     "wallets.settings.base.currency.2": "BTC",
     "wallets.settings.base.currency.3": "ETH",
@@ -149,20 +149,20 @@ window.appLang = {
 
     // TransferView
 
-    "transferview.error.nodesoffline": "There are no nodes online now",
-    "transferview.error.notaccepted": "Transaction was not accepted",
+    "transferview.error.nodesoffline": "На текущий момент в сети нет активных серверов",
+    "transferview.error.notaccepted": "Тразакция не принята",
 
     // TransactionView
 
-    "transactionview.status.0": "Unknown",
-    "transactionview.status.10": "In Progress",
-    "transactionview.status.20": "Done",
-    "transactionview.status.40": "Not Accepted",
+    "transactionview.status.0": "Статус не известен",
+    "transactionview.status.10": "В процессе",
+    "transactionview.status.20": "Выполнена",
+    "transactionview.status.40": "Не принята",
 
     // AppsView
 
-    "appsview.action.get": "Get App",
-    "appsview.action.open": "Open App",
+    "appsview.action.get": "Загрузить приложение",
+    "appsview.action.open": "Открыть приложение",
 
     // SettingsView
 
@@ -175,59 +175,59 @@ window.appLang = {
 
     // PasswordSettingsView
 
-    "settings.password.changed": "Password changed",
-    "settings.password.error.emptyoldpassword": "Enter your current password",
-    "settings.password.error.emptynewpassword": "Enter your new password",
-    "settings.password.error.wrongpassword": "Wrong current password",
+    "settings.password.changed": "Пароль изменен",
+    "settings.password.error.emptyoldpassword": "Введите текущий пароль",
+    "settings.password.error.emptynewpassword": "Введите новый пароль",
+    "settings.password.error.wrongpassword": "Неверный текущий пароль",
 
     // PasscodeSettingsView
 
-    "settings.passcode.turnon": "Turn on passcode",
-    "settings.passcode.turnoff": "Turn off passcode",
-    "settings.passcode.error.donotmatch": "Passcodes do not match",
+    "settings.passcode.turnon": "Включить код-пароль",
+    "settings.passcode.turnoff": "Отключить код-пароль",
+    "settings.passcode.error.donotmatch": "Код-пароли не совпадают",
 
     // QrCodeAlertView
 
-    "qrcodealertview.title.address": "Wallet Address QR Code",
-    "qrcodealertview.title.pk": "Private Key QR Code",
-    "qrcodealertview.comment.address": "Use this QR code to scan, when someone needs to send you coins.",
-    "qrcodealertview.comment.pk": "This QR code has your private key. It gives access to your funds without password and can be used to restore lost wallet. Keep it secure!",
-    "qrcodealertview.comment.pknotexists": "Private key for this wallet was not found on the device.",
-    "qrcodealertview.actions.saveqr": "Save QR Code Image",
-    "qrcodealertview.actions.showpkqr": "Show PK QR Code",
-    "qrcodealertview.hint": "Swipe cards to switch between Wallet<br>and Private Key QR codes",
+    "qrcodealertview.title.address": "QR-код с адресом кошелька",
+    "qrcodealertview.title.pk": "QR-код с закрытым ключем",
+    "qrcodealertview.comment.address": "Поделитесь этим QR-кодом с отправителем",
+    "qrcodealertview.comment.pk": "Этот QR-код содержит выш закрытый ключ. Он обеспечивает доступ к вашим средствам без пароля и может быть использован для восстановления потерянного кошелька. Держите его в безопасности!",
+    "qrcodealertview.comment.pknotexists": "На устройстве не найден закрытый ключ соответствующий этому кошельку.",
+    "qrcodealertview.actions.saveqr": "Сохранить изображение QR-кода",
+    "qrcodealertview.actions.showpkqr": "Показать QR-код для закрытого ключа",
+    "qrcodealertview.hint": "Выполните свайп слева направо или наоборот для переключения между кошельком <br> и закрытым ключем",
 
     // WalletCreatedAlertView
 
-    "walletcreatedalertview.notice": "Password and key file are <i>non-recoverable</i> if lost. Keep them save and make backups!",
+    "walletcreatedalertview.notice": "Пароль и ключевой файл <i>не подлежат восстановлению</i> в случае потери. Держите их в безопасности и сделайте резервные копии!",
 
     // WalletCreateAlertView
 
-    "walletcreatealertview.error.unknowncode": "Unknown QRcode",
-    "walletcreatealertview.title.address": "Address",
-    "walletcreatealertview.title.key.public": "Public Key",
-    "walletcreatealertview.title.key.enc": "Key file is encrypted",
-    "walletcreatealertview.title.key.open": "Key file is open",
-    "walletcreatealertview.address.unknown": "Address unknown",
+    "walletcreatealertview.error.unknowncode": "Неизвестный QR-код",
+    "walletcreatealertview.title.address": "Адрес",
+    "walletcreatealertview.title.key.public": "Открытый ключ",
+    "walletcreatealertview.title.key.enc": "Ключевой файл зашифрован",
+    "walletcreatealertview.title.key.open": "Ключевой файл открыт",
+    "walletcreatealertview.address.unknown": "Неизвестный адрес",
 
     // WalletImportEncryptedAlertView
 
-    "walletimportview.error.unknowncode": "Unknown QRcode",
-    "walletimportview.title.address": "Address",
-    "walletimportview.title.key.public": "Public Key",
-    "walletimportview.title.key.enc": "Key file is encrypted",
-    "walletimportview.title.key.open": "Key file is open",
-    "walletimportview.address.unknown": "Address unknown",
+    "walletimportview.error.unknowncode": "Неизвестный QR-код"",
+    "walletimportview.title.address": "Адрес",
+    "walletimportview.title.key.public": "Открытый ключ",
+    "walletimportview.title.key.enc": "Ключевой файл зашифрован",
+    "walletimportview.title.key.open": "Ключевой файл открыт",
+    "walletimportview.address.unknown": "Неизвестный адрес",
 
     // MetaPayAlertView
 
-    "metapayalertview.error.nowallets": "No suitable wallets found",
-    "metapayalertview.error.notenoghfunds": "Not enough funds. Select different wallet or add funds",
+    "metapayalertview.error.nowallets": "Подходящих кошельков не найдено",
+    "metapayalertview.error.notenoghfunds": "Недостаточно средств. Выберите другой кошелек или пополнить текуший",
 
     // iCloudSyncAlertView
 
-    "icloudsyncalertview.title": "iCloud synchronization",
-    "icloudsyncalertview.warning": "WARNING!",
+    "icloudsyncalertview.title": "Синхронизация iCloud",
+    "icloudsyncalertview.warning": "Предупреждение!",
     "icloudsyncalertview.text1": "Wallets private keys will be stored in iCloud by default. You can change this in settings later.",
     "icloudsyncalertview.text2": "Storing passwords and private keys is your responsibility. They can not be restored. <b>If lost, they are gone.</b>",
 
