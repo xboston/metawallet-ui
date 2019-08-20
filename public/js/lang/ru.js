@@ -212,7 +212,7 @@ window.appLang = {
 
     // WalletImportEncryptedAlertView
 
-    "walletimportview.error.unknowncode": "Неизвестный QR-код"",
+    "walletimportview.error.unknowncode": "Неизвестный QR-код",
     "walletimportview.title.address": "Адрес",
     "walletimportview.title.key.public": "Открытый ключ",
     "walletimportview.title.key.enc": "Ключевой файл зашифрован",
