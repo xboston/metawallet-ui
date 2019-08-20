@@ -163,7 +163,7 @@ function showCopyMenu (selector) {
 
     let menu = document.createElement("div");
     menu.className = "menu-context";
-    menu.innerHTML = "Копировать";
+    menu.innerHTML = __("common.copy");
 
     let $menu = $selector.closest(".page, .alert").appendChild(menu);
     let menuRect = $menu.getBoundingClientRect();

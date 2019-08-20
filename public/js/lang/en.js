@@ -38,6 +38,7 @@ window.appLang = {
     "common.enabled": "Enabled",
     "common.disabled": "Disabled",
     "common.activated": "Activated",
+    "common.copy": "Copy",
     "common.copied": "Copied",
     "common.saved": "Saved",
 
