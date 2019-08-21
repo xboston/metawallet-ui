@@ -32,7 +32,7 @@ window.appLang = {
 
     // common
 
-    "common.version": "Версия интерфейса. " + VERSION + "." + VERSION_BUILD + ". Версия приложения. " + VERSION_APP, // + metawallet.env.appVersion + "." + metawallet.env.build,
+    "common.version": "Версия интерфейса: " + VERSION + "." + VERSION_BUILD + ". Версия приложения: " + VERSION_APP, // + metawallet.env.appVersion + "." + metawallet.env.build,
     "common.copyright": "© 2017-2019 #MetaHash.  Все права защищены",
 
     "common.enabled": "Включено",
@@ -61,10 +61,10 @@ window.appLang = {
 
     "transaction.metahash.name.1": "Подтвердить",
     "transaction.metahash.name.20": "Перевод",
-    "transaction.metahash.name.101": "Фиксированная награда (за пассивный форджинг)",
+    "transaction.metahash.name.101": "Фиксированная награда",
     "transaction.metahash.name.102": "Награда за сервер",
     "transaction.metahash.name.103": "Награда за делегирование",
-    "transaction.metahash.name.104": "Рандомная награда (за активный форджинг)",
+    "transaction.metahash.name.104": "Рандомная награда",
     "transaction.metahash.name.forging": "Начать форджинг",
     "transaction.metahash.name.forging.active": "Начать активный форджинг",
     "transaction.metahash.name.forging.stop": "Остановить форджинг",
@@ -96,17 +96,17 @@ window.appLang = {
     "loaderview.message.connected": "Подключено!",
     "loaderview.message.connecting": "Соединение...",
 
-    "loaderview.tips.header": "TIP ",
+    "loaderview.tips.header": "Советы и подсказки",
     "loaderview.tips.tip1": "Не забудьте сохранить пароль!",
-    "loaderview.tips.tip2": "We never save your password anywhere.",
-    "loaderview.tips.tip3": "Please keep your keys safely. Keep in mind that if you lose them, your keys cannot be recovered.",
-    "loaderview.tips.tip4": "Don\u2019t delete the app in order not to lose all of its data.",
-    "loaderview.tips.tip5": "Please note: the confirmation of Ethereum/Bitcoin transactions can take a long time.",
-    "loaderview.tips.tip6": "You may create unlimited number of wallets.",
-    "loaderview.tips.tip7": "You can select the preferred language in the menu.",
-    "loaderview.tips.tip8": "You can import existing #MetaHash wallets using QR code.",
-    "loaderview.tips.tip9": "Please keep the key password safely. If you lose it, you will not be able to manage your money. Make sure  you will not forget it.",
-    "loaderview.tips.tip10": "We never save your password anywhere.",
+    "loaderview.tips.tip2": "Мы не храним ваши пароли.",
+    "loaderview.tips.tip3": "Надежно храните свои ключи. При утере восстановить их будет невозможно.",
+    "loaderview.tips.tip4": "Не удаляйте приложение MetaWallet, чтобы не потерять все свои данные.",
+    "loaderview.tips.tip5": "Обращаем внимание, что подтверждение транзакций Ethereum и Bitcoin может занимать много времени.",
+    "loaderview.tips.tip6": "Вы можете создать неограниченное количество кошельков.",
+    "loaderview.tips.tip7": "Вы можете изменить язык интерфейса приложения в настройках.",
+    "loaderview.tips.tip8": "Вы можете импортировать кошельки #MetaHash с помощью QR-кода.",
+    "loaderview.tips.tip9": "Надежно храните свой пароль. Если вы его потеряете, то вы не сможете управлять своими средствами.",
+    "loaderview.tips.tip10": "Мы не храним ваши пароли.",
 
     // AuthView
 
@@ -196,7 +196,7 @@ window.appLang = {
     "qrcodealertview.comment.pknotexists": "На устройстве не найден закрытый ключ соответствующий этому кошельку.",
     "qrcodealertview.actions.saveqr": "Сохранить изображение QR-кода",
     "qrcodealertview.actions.showpkqr": "Показать QR-код для закрытого ключа",
-    "qrcodealertview.hint": "Выполните свайп слева направо или наоборот для переключения между кошельком <br> и закрытым ключем",
+    "qrcodealertview.hint": "Выполните свайп слева направо или наоборот для переключения<br> между кошельком и закрытым ключем",
 
     // WalletCreatedAlertView
 
@@ -229,26 +229,26 @@ window.appLang = {
 
     "icloudsyncalertview.title": "Синхронизация iCloud",
     "icloudsyncalertview.warning": "Предупреждение!",
-    "icloudsyncalertview.text1": "Wallets private keys will be stored in iCloud by default. You can change this in settings later.",
-    "icloudsyncalertview.text2": "Storing passwords and private keys is your responsibility. They can not be restored. <b>If lost, they are gone.</b>",
+    "icloudsyncalertview.text1": "По умолчанию закрытые ключи будут храниться в iCloud. Вы можете изменить параметры синхронизации в настройках.",
+    "icloudsyncalertview.text2": "Надежно храните ваши пароли и закрытые ключи. При утере восстановить их будет невозможно.",
 
     // OfferPasscodeAlertView
 
-    "offerpasscodealertview.title": "Make it easier!",
-    "offerpasscodealertview.text": "You can set up a 4-digit passcode and simplify your login to the application.",
-    "offerpasscodealertview.actions.yes": "Set up a passcode",
-    "offerpasscodealertview.actions.no": "No, thanks, just let me in",
+    "offerpasscodealertview.title": "Установите код-доступа",
+    "offerpasscodealertview.text": "Установите 4-значный код-доступа, чтобы упростить вход в приложение.",
+    "offerpasscodealertview.actions.yes": "Установить код-пароль",
+    "offerpasscodealertview.actions.no": "Пропустить",
 
     // NoPkAlertView
 
-    "nopkalertview.text1": "There is no private key<br>available on your device",
-    "nopkalertview.text2": "Unfortunately, you can’t make a transfer before you place this wallet’s private key to the memory storage of your phone/tablet. You can view the history of transactions, information about the wallet and cryptocurrency balance.",
-    "nopkalertview.actions.import": "Import key from QR code",
-    "nopkalertview.actions.cancel": "cancel and return",
+    "nopkalertview.text1": "Отсутствует закрытый ключ",
+    "nopkalertview.text2": "Перевод средств без закрытого ключа невозможен. Импортируйте закрытый ключ, чтобы получить возможность переводить средства. Без закрытого ключа доступен просмотр информации о балансе кошелька и просмотр истории транзакций.",
+    "nopkalertview.actions.import": "Импорт ключа из QR-кода",
+    "nopkalertview.actions.cancel": "Назад",
 
     // importpk
 
-    "importpk.wrongcurrency": "Scaned QR does not contain $currency wallet",
+    "importpk.wrongcurrency": "QR-код не содержит $currency кошелек",
 
     // GEO
 
@@ -258,7 +258,7 @@ window.appLang = {
     "node.geo.undefined": "не определено",
 
     // NodeView
-    "nodeview.error.notenoghfunds": "Not enough funds for delegation",
+    "nodeview.error.notenoghfunds": "Недостаточно средств для делегирования",
 };
 
 /**
