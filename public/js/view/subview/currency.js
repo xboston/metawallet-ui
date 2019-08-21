@@ -41,7 +41,7 @@ class CurrencySubView extends View {
         this.element.querySelector(".currency-amount-small").innerHTML = "." + this.currency.getBalance().decimal.substr(0, 2);
         this.element.querySelector(".currency-amount-smaller").innerHTML = this.currency.ticker;
         this.element.querySelector(".currency-amount-recalc").innerHTML = formatNum(this.currency.getBaseCurrencyRecalc().recalc, -2) + " " + this.app.walletCollection.baseCurrency.ticker;
-        this.element.querySelector(".js--currency-rate").innerHTML = formatNum(this.currency.getBaseCurrencyRecalc().rate, -2) + " " + this.app.walletCollection.baseCurrency.ticker;
+        this.element.querySelector(".js--currency-rate").innerHTML = (new Decimal(this.currency.getBaseCurrencyRecalc().rate)).toFixed(8).replace(/0+$/, "") + " " + this.app.walletCollection.baseCurrency.ticker;
         if (this.app.walletCollection.history[this.currency.code]) {
             drawChart(this.app.walletCollection.history[this.currency.code].data, this.element.querySelector(".currency-graph"), false, CURRENCY_DISABLED.includes(this.currency.id));
         }
