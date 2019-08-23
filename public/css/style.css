@@ -1446,7 +1446,7 @@ form {
 .bordered-block__header {
   font-weight: 500;
   font-size: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   margin-bottom: 13px; }
 
@@ -1550,7 +1550,7 @@ form {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   text-align: left;
   margin: 27px 0 22px 0; }
@@ -1575,7 +1575,7 @@ form {
 
 .form-label {
   font-size: 11px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #99CEFF;
   text-align: left;
   display: block;
@@ -1749,7 +1749,7 @@ form {
 .form-control-wallet-preview__title {
   font-size: 12px;
   line-height: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   margin-top: 2px;
   overflow: hidden;
@@ -1849,7 +1849,7 @@ form {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   padding: 21px 28px 20px 28px;
   border: 1px solid rgba(153, 206, 255, 0);
@@ -1977,7 +1977,7 @@ form {
 
 .notification__text {
   font-size: 13px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #000000; }
 .notification--error .notification__text:before {
   content: '';
@@ -2028,7 +2028,7 @@ form {
   color: #ffffff;
   font-size: 13px;
   text-align: center;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
   padding: 46px 0 14px 0; }
 .notification-color:before {
   content: '';
@@ -2220,7 +2220,7 @@ form {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   margin-bottom: 20px; }
 .alert-title.alert-title--lg {
@@ -2309,7 +2309,7 @@ form {
   font-weight: 500;
   font-size: 10px;
   line-height: 12px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   text-align: left;
   padding: 15px 10px 13px 47px; }
 .alert-attention-block i {
@@ -2346,7 +2346,7 @@ form {
 
 .alert-param-label {
   font-size: 13px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #99CEFF;
   text-align: left;
   margin-bottom: 13px; }
@@ -2395,7 +2395,7 @@ form {
 
 .alert-progress-bar-status {
   font-size: 10px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   margin-bottom: 12px; }
 
@@ -2769,7 +2769,7 @@ form {
     margin-top: 317px; } }
 
 .preloader-connection-status {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 500;
   font-size: 15px;
   line-height: normal;
@@ -2815,7 +2815,7 @@ form {
 
 .loader-connection-status {
   margin-top: 35px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 500;
   font-size: 14px;
   line-height: normal;
@@ -2844,7 +2844,7 @@ form {
   font-weight: 500;
   font-size: 12px;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 12px; }
 @media (min-height: 667px) {
   .loader-tip__header {
@@ -2856,7 +2856,7 @@ form {
   font-size: 11px;
   line-height: 12px;
   min-height: 24px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   width: 80%;
   margin-left: auto;
   margin-right: auto; }
@@ -3412,7 +3412,7 @@ form {
 .currency-title {
   font-weight: 500;
   font-size: 11px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 10px;
   margin-left: 1px;
   text-align: left; }
@@ -3581,14 +3581,14 @@ form {
 .wallet-add-title {
   font-weight: 500;
   font-size: 12px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff; }
 
 .wallet-add-tip {
   font-size: 11px;
   color: #99CEFF;
   margin-top: 5px;
-  text-transform: uppercase; }
+  /*text-transform: uppercase;*/ }
 
 .wallet {
   position: relative;
@@ -3832,7 +3832,7 @@ form {
 .wallet-block__title {
   font-weight: 300;
   font-size: 13px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   margin-bottom: 3px;
   overflow: hidden;
@@ -3948,7 +3948,7 @@ form {
 .transactions-logs-header {
   font-weight: 400;
   font-size: 11px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   margin-bottom: 16px; }
 
@@ -4002,7 +4002,7 @@ form {
   font-weight: 500;
   font-size: 10px;
   line-height: 12px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -4041,7 +4041,7 @@ form {
   font-weight: 500;
   font-size: 13px;
   line-height: 15px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -4085,7 +4085,7 @@ form {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff; }
 
 .empty-block-message__text {
@@ -4159,14 +4159,14 @@ form {
   font-weight: 500;
   font-size: 13px;
   line-height: 15px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff; }
 
 .delegation-log-info-action-value {
   font-weight: 500;
   font-size: 10px;
   line-height: 12px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #99CEFF;
   opacity: 0.5;
   position: absolute;
@@ -4505,7 +4505,7 @@ form {
 .wallet-node-action-button {
   font-size: 10px;
   line-height: 12px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #99CEFF;
   border: 1px solid rgba(153, 206, 255, 0.5);
   min-width: 110px;
@@ -4547,7 +4547,7 @@ form {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   text-align: left;
   margin-bottom: 23px; }
@@ -4692,7 +4692,7 @@ form {
 .forging-log__info {
   font-size: 10px;
   line-height: 12px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff; }
 .forging-log--active .forging-log__info {
   font-size: 11px;
@@ -5298,7 +5298,7 @@ form {
 .menu-profile {
   font-size: 14px;
   line-height: 16px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   margin: 47px 0 0 52px; }
 
@@ -5343,7 +5343,7 @@ form {
   font-weight: 300;
   font-size: 17px;
   line-height: 30px;
-  text-transform: uppercase; }
+  /*text-transform: uppercase;*/ }
 
 /*
   Bottom-menu
@@ -5398,7 +5398,7 @@ form {
   font-size: 14px;
   line-height: normal;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   margin-bottom: 10px; }
 .btm-menu-title .icon-wrapper {
@@ -5492,7 +5492,7 @@ form {
 .btn-menu-status {
   font-size: 11px;
   line-height: normal;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff;
   margin-bottom: 9px; }
 
@@ -5696,7 +5696,7 @@ form {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #ffffff; }
 
 .forging-reward-list {
@@ -5714,7 +5714,7 @@ form {
   font-weight: 500;
   font-size: 10px;
   line-height: 12px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   text-align: left; }
 .forging-reward-item__info.forging-reward-item__info--active {
   font-weight: normal;
@@ -5728,7 +5728,7 @@ form {
   font-size: 11px;
   line-height: 13px;
   text-align: right;
-  text-transform: uppercase; }
+  /*text-transform: uppercase; */}
 
 /*
   Settings
@@ -5812,7 +5812,7 @@ form {
   font-weight: 300;
   font-size: 12px;
   line-height: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 0 7.5% 17px 10%; }
 .settings-block--compact .settings-block__header {
   padding-top: 21px; }
