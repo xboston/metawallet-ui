@@ -551,7 +551,9 @@
                     </div>
 
                     <div class="form-group-submit">
-                        <button class="btn btn-primary" type="button">Continue</button>
+                        <button class="btn btn-primary" type="button">
+                             <lang name="action.continue"></lang>
+                        </button>
                     </div>
                 </form>
                 <!-- /auth form -->
@@ -1054,15 +1056,29 @@
                         <div class="home-graph-params-sort-selects-wrapper">
                             <div class="home-graph-params-sort-select" data-param="period" style="display: none;">
                                 <!-- для выделения: .active -->
-                                <div class="home-graph-params-sort-option" data-param-value="day">24H</div>
-                                <div class="home-graph-params-sort-option" data-param-value="week">7 DAYS</div>
-                                <div class="home-graph-params-sort-option" data-param-value="month">1 MONTH</div>
+                                <div class="home-graph-params-sort-option" data-param-value="day">
+                                    <lang name="wallets.settings.base.period.day"></lang>
+                                </div>
+                                <div class="home-graph-params-sort-option" data-param-value="week">
+                                    <lang name="wallets.settings.base.period.week"></lang>
+                                </div>
+                                <div class="home-graph-params-sort-option" data-param-value="month">
+                                     <lang name="wallets.settings.base.period.month"></lang>
+                                </div>
                             </div>
                             <div class="home-graph-params-sort-select" data-param="currency" style="display: none;">
-                                <div class="home-graph-params-sort-option" data-param-value="1000">USD</div>
-                                <div class="home-graph-params-sort-option" data-param-value="2">BTC</div>
-                                <div class="home-graph-params-sort-option" data-param-value="3">ETH</div>
-                                <!-- <div class="home-graph-params-sort-option" data-param-value="4">MHC</div> -->
+                                <div class="home-graph-params-sort-option" data-param-value="1000">
+                                    <lang name="wallets.settings.base.currency.1000"></lang>
+                                </div>
+                                <div class="home-graph-params-sort-option" data-param-value="2">
+                                    <lang name="wallets.settings.base.currency.2"></lang>
+                                </div>
+                                <div class="home-graph-params-sort-option" data-param-value="3">
+                                    <lang name="wallets.settings.base.currency.3"></lang>
+                                </div>
+                                <!-- <div class="home-graph-params-sort-option" data-param-value="4">
+                                    <lang name="wallets.settings.base.currency.4"></lang>
+                                </div> -->
                             </div>
                         </div>
 
@@ -1383,15 +1399,29 @@
                         <div class="home-graph-params-sort-selects-wrapper">
                             <div class="home-graph-params-sort-select" data-param="period" style="display: none;">
                                 <!-- для выделения: .active -->
-                                <div class="home-graph-params-sort-option" data-param-value="day">24H</div>
-                                <div class="home-graph-params-sort-option" data-param-value="week">7 DAYS</div>
-                                <div class="home-graph-params-sort-option" data-param-value="month">1 MONTH</div>
+                                <div class="home-graph-params-sort-option" data-param-value="day">
+                                    <lang name="wallets.settings.base.period.day"></lang>
+                                </div>
+                                <div class="home-graph-params-sort-option" data-param-value="week">
+                                    <lang name="wallets.settings.base.period.week"></lang>
+                                </div>
+                                <div class="home-graph-params-sort-option" data-param-value="month">
+                                    <lang name="wallets.settings.base.period.month"></lang>
+                                </div>
                             </div>
                             <div class="home-graph-params-sort-select" data-param="currency" style="display: none;">
-                                <div class="home-graph-params-sort-option" data-param-value="1000">USD</div>
-                                <div class="home-graph-params-sort-option" data-param-value="2">BTC</div>
-                                <div class="home-graph-params-sort-option" data-param-value="3">ETH</div>
-                                <!-- <div class="home-graph-params-sort-option" data-param-value="4">MHC</div> -->
+                                <div class="home-graph-params-sort-option" data-param-value="1000">
+                                    <lang name="wallets.settings.base.currency.1000"></lang>
+                                </div>
+                                <div class="home-graph-params-sort-option" data-param-value="2">
+                                    <lang name="wallets.settings.base.currency.2"></lang>
+                                </div>
+                                <div class="home-graph-params-sort-option" data-param-value="3">
+                                    <lang name="wallets.settings.base.currency.3"></lang>
+                                </div>
+                                <!-- <div class="home-graph-params-sort-option" data-param-value="4">
+                                    <lang name="wallets.settings.base.currency.4"></lang>
+                                </div> -->
                             </div>
                         </div>
 
@@ -3575,7 +3605,7 @@
                         <div class="settings-block-item-inner">
                             <span class="">
                                 <i class="setting-btn-icon icon icon-round-logout"></i>
-                                Log Out
+                                <lang name="menu.logout"></lang>
                             </span>
                         </div>
                     </button>
@@ -3728,7 +3758,7 @@
             <!--  settings block-->
             <div class="settings-block">
                 <div class="settings-block__header">
-                    iCloud synchronization
+                    <lang name="icloudsyncalertview.title"></lang>
                 </div>
                 <div class="settings-block-list">
                     <div class="settings-block-item">
@@ -3794,7 +3824,7 @@
                     <div class="settings-block-item">
                         <div class="settings-block-item-inner">
                             <div class="settings-block-item__label">
-                                Current Password
+                                <lang name="settings.password.error.emptyoldpassword"></lang>
                             </div>
                             <div class="settings-block-item__value settings-block-item__value--main">
                                 <input name="old" class="input-invisible" type="password" placeholder="Type your current password" autocomplete="off">
@@ -3804,7 +3834,7 @@
                     <div class="settings-block-item">
                         <div class="settings-block-item-inner">
                             <div class="settings-block-item__label">
-                                Password
+                                <lang name="settings.password.error.emptynewpassword"></lang>
                             </div>
                             <div class="settings-block-item__value settings-block-item__value--main">
                                 <input name="new" class="input-invisible" type="password" placeholder="Type new password" autocomplete="off">
@@ -3814,7 +3844,7 @@
                     <div class="settings-block-item">
                         <div class="settings-block-item-inner">
                             <div class="settings-block-item__label">
-                                Repeat Password
+                                <lang name="settings.password.error.wrongpassword"></lang>
                             </div>
                             <div class="settings-block-item__value settings-block-item__value--main">
                                 <input name="new2" class="input-invisible" type="password" placeholder="Type new password again" autocomplete="off">
@@ -4432,7 +4462,9 @@
 
                     <div class="alert-actions">
                         <!-- to disable: .disabled -->
-                        <button class="btn btn-primary btn-text-sm" type="button" data-selector="actions.createwallet">Create wallet</button>
+                        <button class="btn btn-primary btn-text-sm" type="button" data-selector="actions.createwallet">
+                             <lang name="createwalletview.title"></lang>
+                        </button>
                     </div>
                 </form>
                 <!-- /form -->
@@ -5735,7 +5767,7 @@
                         </svg>
                     </div>
                     <div class="menu-item__label menu-item--home">
-                        Home
+                         <lang name="menu.home"></lang>
                     </div>
                 </div>
                 <div class="menu-item">
@@ -5759,7 +5791,7 @@
                         </svg>
                     </div>
                     <div class="menu-item__label menu-item--apps">
-                        dApps
+                         <lang name="menu.apps"></lang>
                     </div>
                 </div>
                 <div class="menu-item">
@@ -5770,7 +5802,7 @@
                         </svg>
                     </div>
                     <div class="menu-item__label menu-item--support">
-                        Support
+                        <lang name="menu.support"></lang>
                     </div>
                 </div>
                 <div class="menu-item-divider"></div>
@@ -5781,7 +5813,7 @@
                         </svg>
                     </div>
                     <div class="menu-item__label menu-item--settings">
-                        Settings
+                         <lang name="menu.settings"></lang>
                     </div>
                 </div>
             </div>
