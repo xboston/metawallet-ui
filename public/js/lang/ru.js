@@ -79,6 +79,7 @@ window.appLang = {
     "menu.settings": "Настройки",
     "menu.support": "Поддержка",
     "menu.logout": "Выход",
+    "menu.coindelegation": "Делегирование MHC",
 
     // PasscodeAlertView
 
@@ -110,6 +111,10 @@ window.appLang = {
 
     // AuthView
 
+    "auth.title.welcome": "Здравствуйте",
+    "auth.button.login": "Войти",
+    "auth.button.createaccount": "Создать учетную запись",
+    "auth.link.resetpassword": "Забыли пароль?",
     "auth.error.usernotfound": "Пользователь не найден",
 
     // ResetPasswordView
@@ -138,6 +143,8 @@ window.appLang = {
     "currenciesview.totalassetsvalue": "Общая стоимость",
     "currenciesview.tab.currencies": "Валюты",
     "currenciesview.tab.wallets": "Недавние кошельки",
+    "currenciesview.card.wallets": "wallets",
+    "currenciesview.card.currencyrate": "Курс валюты",
 
     // WalletsView
 
