@@ -14,7 +14,7 @@
     <title>MetaWallet</title>
 
     <!-- styles -->
-    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- icons -->
     <!--<link rel="icon" href="public/i/favicon-32x32.png" type="image/png" sizes="32x32">-->
@@ -337,7 +337,7 @@
 
                 <!-- welcome text -->
                 <div class="auth-welcome-text">
-                    Welcome back
+                     <lang name="auth.title.welcome"></lang>
                 </div>
                 <!-- /welcome text -->
 
@@ -354,12 +354,16 @@
 
                     <div class="form-group-submit">
                         <!-- для отключения кнопки: .disabled -->
-                        <button class="btn btn-primary" type="button">Login</button>
+                        <button class="btn btn-primary" type="button">
+                            <lang name="auth.button.login"></lang>
+                        </button>
                     </div>
 
                     <!-- reset pwd-->
                     <div class="auth-help" style="margin-top: 25px;">
-                        <span class="link" data-selector="actions.resetpassword">Forgot password?</span>
+                        <span class="link" data-selector="actions.resetpassword">
+                            <lang name="auth.link.resetpassword"></lang>
+                        </span>
                     </div>
                     <!-- /reset pwd-->
                 </div>
@@ -367,7 +371,9 @@
 
                 <!-- auth actions-->
                 <div class="auth-actions" style="margin-top: 50px;">
-                    <button class="btn btn-outline btn-sm" type="button" data-selector="actions.createaccount">Create account</button>
+                    <button class="btn btn-outline btn-sm" type="button" data-selector="actions.createaccount">
+                        <lang name="auth.button.createaccount"></lang>
+                    </button>
                     <!-- <span class="link" data-selector="actions.continue" style="margin-top: 25px;">Continue without registration</span> -->
                 </div>
                 <!-- /auth actions-->
@@ -1174,7 +1180,7 @@
                                     <i class="icon"></i>
                                 </div>
                                 <div class="currency-stats">
-                                    <div class="currency-stat currency-stats--wallets"><b><!--XX--></b> wallets</div>
+                                    <div class="currency-stat currency-stats--wallets"><b><!--XX--></b> <lang name="currenciesview.card.wallets"></lang></div>
                                     <!--
                                     <div class="currency-stat currency-stats--tokens"><b>< !--XX-- ></b> tokens</div>
                                     -->
@@ -1189,7 +1195,7 @@
                             <div class="currency-bl">
                                 <!-- .color-red/.color-green -->
                                 <div class="currency-rate-diff"><!--+X,XXX--></div>
-                                <div class="currency-rate">Currency rate: <span class="js--currency-rate">0.00 <!--TICKER--></span></div>
+                                <div class="currency-rate"><lang name="currenciesview.card.currencyrate"></lang>: <span class="js--currency-rate">0.00 <!--TICKER--></span></div>
                             </div>
                         </div>
                     </div>
@@ -5778,7 +5784,7 @@
                         </svg>
                     </div>
                     <div class="menu-item__label menu-item--delegation">
-                        Coin Delegation
+                        <lang name="menu.coindelegation"></lang>
                     </div>
                 </div>
                 <div class="menu-item">
