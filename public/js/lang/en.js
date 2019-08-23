@@ -79,6 +79,7 @@ window.appLang = {
     "menu.settings": "Settings",
     "menu.support": "Support",
     "menu.logout": "Log out",
+    "menu.coindelegation": "Coin Delegation",
 
     // PasscodeAlertView
 
@@ -110,6 +111,10 @@ window.appLang = {
 
     // AuthView
 
+    "auth.title.welcome": "Welcome back",
+    "auth.button.login": "Login",
+    "auth.button.createaccount": "Create account",
+    "auth.link.resetpassword": " Forgot password?",
     "auth.error.usernotfound": "User not found",
 
     // ResetPasswordView
@@ -138,6 +143,8 @@ window.appLang = {
     "currenciesview.totalassetsvalue": "Total Assets Value",
     "currenciesview.tab.currencies": "Currencies",
     "currenciesview.tab.wallets": "Recent Wallets",
+    "currenciesview.card.wallets": "wallets",
+    "currenciesview.card.currencyrate": "Currency rate",
 
     // WalletsView
 
