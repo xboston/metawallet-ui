@@ -345,11 +345,11 @@
                 <!-- auth form -->
                 <div class="auth-form auth-form--show-help" data-selector="auth.form">
                     <div class="form-group">
-                        <input name="login" class="form-control" type="email" placeholder="E-mail" value="">
+                        <input name="login" class="form-control" type="email" placeholder="auth.placeholder.login" value="">
                     </div>
                     <div class="form-group">
                         <!-- error: .form-control--error -->
-                        <input name="password" class="form-control form-control--password" type="password" placeholder="Password" value="" autocomplete="off">
+                        <input name="password" class="form-control form-control--password" type="password" placeholder="auth.placeholder.password" value="" autocomplete="off">
                     </div>
 
                     <div class="form-group-submit">
@@ -1180,7 +1180,7 @@
                                     <i class="icon"></i>
                                 </div>
                                 <div class="currency-stats">
-                                    <div class="currency-stat currency-stats--wallets"><b><!--XX--></b> <lang name="currenciesview.card.wallets"></lang></div>
+                                    <div class="currency-stat currency-stats--wallets"><lang name="currenciesview.card.wallets"></lang></div>
                                     <!--
                                     <div class="currency-stat currency-stats--tokens"><b>< !--XX-- ></b> tokens</div>
                                     -->
@@ -1237,7 +1237,7 @@
                                             <path d="M12.8696 14.9565H11.8262V16H12.8696V14.9565Z" fill="currentColor"/>
                                         </svg>
                                     </div>
-                                    <nobr>Import PK</nobr>
+                                    <nobr><lang name="walletsview.button.importpk"></lang></nobr>
                                 </button>
                                 <button class="menu-action" data-selector="actions.transfer">
                                     <div class="menu-action__icon">
@@ -1245,7 +1245,7 @@
                                             <path d="M15.8327 4.64091L11.8326 0.186315C11.6094 -0.0621671 11.2476 -0.0620925 11.0245 0.186464C10.9174 0.305783 10.8572 0.467535 10.8572 0.63626V2.54537H6.85712C6.54151 2.54537 6.28567 2.83028 6.28567 3.18175C6.28567 3.53322 6.54151 3.81813 6.85712 3.81813H11.4286C11.7442 3.81813 12.0001 3.53322 12.0001 3.18175V2.17242L14.6207 5.09081L12.0001 8.00921V6.99992C12.0001 6.64845 11.7442 6.36354 11.4286 6.36354H5.14281V4.45443C5.14274 4.10296 4.88683 3.81813 4.57126 3.8182C4.41978 3.81824 4.2745 3.88524 4.16736 4.00453L0.167321 8.45912C-0.0557737 8.70764 -0.0557737 9.11045 0.167321 9.35893L4.16739 13.8135C4.27453 13.9329 4.41985 14 4.57139 14C4.64649 14.0003 4.72092 13.9838 4.79023 13.9516C5.00372 13.853 5.14287 13.621 5.14281 13.3636V11.4545H9.14287C9.45848 11.4545 9.71432 11.1696 9.71432 10.8181C9.71432 10.4667 9.45848 10.1817 9.14287 10.1817H4.57139C4.25578 10.1817 3.99994 10.4667 3.99994 10.8181V11.8274L1.37933 8.90902L3.99994 5.99063V6.99992C3.99994 7.35139 4.25578 7.6363 4.57139 7.6363H10.8572V9.54541C10.8573 9.89688 11.1132 10.1817 11.4287 10.1816C11.5802 10.1816 11.7255 10.1146 11.8326 9.99531L15.8327 5.54072C16.0558 5.2922 16.0558 4.88939 15.8327 4.64091Z" fill="currentColor"></path>
                                         </svg>
                                     </div>
-                                    Transfer
+                                    <lang name="walletsview.button.transfer"></lang>
                                 </button>
                                 <!-- <button class="menu-action" data-selector="actions.forging">
                                     <div class="menu-action__icon">
@@ -1255,7 +1255,7 @@
                                             <path d="M0.101586 9.44357L4.8626 9.64153V9.499C4.8626 9.38815 4.95878 9.29313 5.07099 9.30105L5.68014 9.31688V9.05558C5.68014 8.96848 5.75228 8.89722 5.84045 8.89722H14.9938C14.9938 8.89722 15.09 9.72071 14.5209 9.9345C13.4709 10.3225 10.4732 10.275 9.99231 12.1358C9.61559 13.5848 10.8099 13.8303 11.2667 13.9332C11.3789 13.957 11.4751 14.0124 11.5553 14.0916C11.8037 14.3291 12.3087 14.8359 12.3247 14.9467C12.3488 15.0893 12.3247 15.9999 12.3247 15.9999H10.4973C10.4973 15.9999 9.64765 15.0893 8.22897 15.1843C6.81028 15.2793 6.26525 15.889 6.26525 15.889L4.37367 15.8653V14.8359L5.04695 14.147C5.1271 14.0678 5.23129 14.0124 5.34351 13.9966C5.75228 13.9411 6.7141 13.7353 6.69006 13.0543C6.64196 11.8666 5.97671 12.017 5.24733 11.922C4.70229 11.8507 3.3317 11.9853 2.05729 11.2331C1.10348 10.6709 0.350056 9.95034 0.0294494 9.62569C-0.0346719 9.54651 0.0134191 9.44357 0.101586 9.44357Z" fill="currentColor"></path>
                                         </svg>
                                     </div>
-                                    Forging
+                                    <lang name="walletsview.button.forging"></lang>
                                 </button> -->
                                 <button class="menu-action" data-selector="actions.copyaddress">
                                     <div class="menu-action__icon">
@@ -1264,7 +1264,7 @@
                                             <path d="M9.52511 0H2.81152V12.9973H13.0917V4.12329L9.52511 0ZM4.69972 10.9805V2.01683H8.43415V5.01966H11.2455V11.0253H4.69972V10.9805Z" fill="currentColor"></path>
                                         </svg>
                                     </div>
-                                    <nobr>Copy Address</nobr>
+                                    <nobr><lang name="walletsview.button.copyaddress"></lang></nobr>
                                 </button>
                                 <button class="menu-action" data-selector="actions.qr">
                                     <div class="menu-action__icon">
@@ -1283,7 +1283,7 @@
                                             <path d="M12.8696 14.9565H11.8262V16H12.8696V14.9565Z" fill="currentColor"></path>
                                         </svg>
                                     </div>
-                                    <nobr>Show QR</nobr>
+                                    <nobr><lang name="walletsview.button.showqr"></nobr>
                                 </button>
                                 <button class="menu-action" data-selector="actions.savepk">
                                     <div class="menu-action__icon">
@@ -1291,7 +1291,7 @@
                                             <path d="M11.0473 0.981556C9.73857 -0.327185 7.65998 -0.327185 6.35124 0.981556C5.42743 1.90537 5.15798 3.25261 5.5814 4.40738L0.654371 9.3344L0 11.336L2.0016 11.9904L2.61748 11.336L4.5421 10.6816V9.3344L5.27346 8.68003L5.96632 9.3344L7.31355 7.98717L6.65918 7.3328L7.583 6.44747C8.73777 6.87089 10.085 6.60144 11.0473 5.67763C12.3176 4.36889 12.3176 2.2903 11.0473 0.981556ZM9.77707 3.06014C9.54611 3.2911 9.16119 3.2911 8.93023 3.06014C8.69928 2.82919 8.69928 2.44427 8.93023 2.21331C9.16119 1.98236 9.54611 1.98236 9.77707 2.21331C10.008 2.48276 10.008 2.82919 9.77707 3.06014Z" fill="currentColor"/>
                                         </svg>
                                     </div>
-                                    Save PK
+                                    <lang name="walletsview.button.savepk">
                                 </button>
                             </div>
                         </div>
@@ -1502,7 +1502,7 @@
                                             <path d="M12.8696 14.9565H11.8262V16H12.8696V14.9565Z" fill="currentColor"/>
                                         </svg>
                                     </div>
-                                    <nobr>Import PK</nobr>
+                                    <nobr><lang name="walletsview.button.importpk"></lang></nobr>
                                 </button>
                                 <button class="menu-action" data-selector="actions.transfer">
                                     <div class="menu-action__icon">
@@ -1510,7 +1510,7 @@
                                             <path d="M15.8327 4.64091L11.8326 0.186315C11.6094 -0.0621671 11.2476 -0.0620925 11.0245 0.186464C10.9174 0.305783 10.8572 0.467535 10.8572 0.63626V2.54537H6.85712C6.54151 2.54537 6.28567 2.83028 6.28567 3.18175C6.28567 3.53322 6.54151 3.81813 6.85712 3.81813H11.4286C11.7442 3.81813 12.0001 3.53322 12.0001 3.18175V2.17242L14.6207 5.09081L12.0001 8.00921V6.99992C12.0001 6.64845 11.7442 6.36354 11.4286 6.36354H5.14281V4.45443C5.14274 4.10296 4.88683 3.81813 4.57126 3.8182C4.41978 3.81824 4.2745 3.88524 4.16736 4.00453L0.167321 8.45912C-0.0557737 8.70764 -0.0557737 9.11045 0.167321 9.35893L4.16739 13.8135C4.27453 13.9329 4.41985 14 4.57139 14C4.64649 14.0003 4.72092 13.9838 4.79023 13.9516C5.00372 13.853 5.14287 13.621 5.14281 13.3636V11.4545H9.14287C9.45848 11.4545 9.71432 11.1696 9.71432 10.8181C9.71432 10.4667 9.45848 10.1817 9.14287 10.1817H4.57139C4.25578 10.1817 3.99994 10.4667 3.99994 10.8181V11.8274L1.37933 8.90902L3.99994 5.99063V6.99992C3.99994 7.35139 4.25578 7.6363 4.57139 7.6363H10.8572V9.54541C10.8573 9.89688 11.1132 10.1817 11.4287 10.1816C11.5802 10.1816 11.7255 10.1146 11.8326 9.99531L15.8327 5.54072C16.0558 5.2922 16.0558 4.88939 15.8327 4.64091Z" fill="currentColor"></path>
                                         </svg>
                                     </div>
-                                    Transfer
+                                    <lang name="walletsview.button.transfer"></lang>
                                 </button>
                                 <!-- <button class="menu-action" data-selector="actions.forging">
                                     <div class="menu-action__icon">
@@ -1529,7 +1529,7 @@
                                             <path d="M9.52511 0H2.81152V12.9973H13.0917V4.12329L9.52511 0ZM4.69972 10.9805V2.01683H8.43415V5.01966H11.2455V11.0253H4.69972V10.9805Z" fill="currentColor"></path>
                                         </svg>
                                     </div>
-                                    <nobr>Copy Address</nobr>
+                                    <nobr><lang name="walletsview.button.copyaddress"></lang></nobr>
                                 </button>
                                 <button class="menu-action" data-selector="actions.qr">
                                     <div class="menu-action__icon">
@@ -1548,7 +1548,7 @@
                                             <path d="M12.8696 14.9565H11.8262V16H12.8696V14.9565Z" fill="currentColor"></path>
                                         </svg>
                                     </div>
-                                    <nobr>Show QR</nobr>
+                                    <nobr><lang name="walletsview.button.showqr"></lang></nobr>
                                 </button>
                                 <button class="menu-action" data-selector="actions.savepk">
                                     <div class="menu-action__icon">
@@ -1556,7 +1556,7 @@
                                             <path d="M11.0473 0.981556C9.73857 -0.327185 7.65998 -0.327185 6.35124 0.981556C5.42743 1.90537 5.15798 3.25261 5.5814 4.40738L0.654371 9.3344L0 11.336L2.0016 11.9904L2.61748 11.336L4.5421 10.6816V9.3344L5.27346 8.68003L5.96632 9.3344L7.31355 7.98717L6.65918 7.3328L7.583 6.44747C8.73777 6.87089 10.085 6.60144 11.0473 5.67763C12.3176 4.36889 12.3176 2.2903 11.0473 0.981556ZM9.77707 3.06014C9.54611 3.2911 9.16119 3.2911 8.93023 3.06014C8.69928 2.82919 8.69928 2.44427 8.93023 2.21331C9.16119 1.98236 9.54611 1.98236 9.77707 2.21331C10.008 2.48276 10.008 2.82919 9.77707 3.06014Z" fill="currentColor"/>
                                         </svg>
                                     </div>
-                                    Save PK
+                                    <lang name="walletsview.button.savepk"></lang>
                                 </button>
                             </div>
                         </div>
@@ -1606,8 +1606,12 @@
                     </div>
 
                     <div class="wallet-add-info">
-                        <div class="wallet-add-title">Add wallet</div>
-                        <div class="wallet-add-tip">Create new or import from QR code</div>
+                        <div class="wallet-add-title">
+                            <lang name="createwalletview.button.add"></lang>
+                        </div>
+                        <div class="wallet-add-tip">
+                            <lang name="createwalletview.button.addtip"></lang>
+                        </div>
                     </div>
                 </div>
                 <!--/add wallet-->
@@ -1777,7 +1781,7 @@
                                         <path d="M12.8696 14.9565H11.8262V16H12.8696V14.9565Z" fill="currentColor"/>
                                     </svg>
                                 </div>
-                                <nobr>Import PK</nobr>
+                                <nobr><lang name="walletsview.button.importpk"></lang></nobr>
                             </button>
                             <button class="menu-action" data-selector="actions.editwallet">
                                 <div class="menu-action__icon">
@@ -1794,7 +1798,7 @@
                                     <path d="M11.0473 0.981556C9.73857 -0.327185 7.65998 -0.327185 6.35124 0.981556C5.42743 1.90537 5.15798 3.25261 5.5814 4.40738L0.654371 9.3344L0 11.336L2.0016 11.9904L2.61748 11.336L4.5421 10.6816V9.3344L5.27346 8.68003L5.96632 9.3344L7.31355 7.98717L6.65918 7.3328L7.583 6.44747C8.73777 6.87089 10.085 6.60144 11.0473 5.67763C12.3176 4.36889 12.3176 2.2903 11.0473 0.981556ZM9.77707 3.06014C9.54611 3.2911 9.16119 3.2911 8.93023 3.06014C8.69928 2.82919 8.69928 2.44427 8.93023 2.21331C9.16119 1.98236 9.54611 1.98236 9.77707 2.21331C10.008 2.48276 10.008 2.82919 9.77707 3.06014Z" fill="currentColor"/>
                                 </svg>
                                 </div>
-                                <nobr>Save PK</nobr>
+                                <nobr><lang name="walletsview.button.savepk"></lang></nobr>
                             </button>
                         </div>
                     </div>
@@ -1836,7 +1840,7 @@
                                     <path d="M15.8327 4.64091L11.8326 0.186315C11.6094 -0.0621671 11.2476 -0.0620925 11.0245 0.186464C10.9174 0.305783 10.8572 0.467535 10.8572 0.63626V2.54537H6.85712C6.54151 2.54537 6.28567 2.83028 6.28567 3.18175C6.28567 3.53322 6.54151 3.81813 6.85712 3.81813H11.4286C11.7442 3.81813 12.0001 3.53322 12.0001 3.18175V2.17242L14.6207 5.09081L12.0001 8.00921V6.99992C12.0001 6.64845 11.7442 6.36354 11.4286 6.36354H5.14281V4.45443C5.14274 4.10296 4.88683 3.81813 4.57126 3.8182C4.41978 3.81824 4.2745 3.88524 4.16736 4.00453L0.167321 8.45912C-0.0557737 8.70764 -0.0557737 9.11045 0.167321 9.35893L4.16739 13.8135C4.27453 13.9329 4.41985 14 4.57139 14C4.64649 14.0003 4.72092 13.9838 4.79023 13.9516C5.00372 13.853 5.14287 13.621 5.14281 13.3636V11.4545H9.14287C9.45848 11.4545 9.71432 11.1696 9.71432 10.8181C9.71432 10.4667 9.45848 10.1817 9.14287 10.1817H4.57139C4.25578 10.1817 3.99994 10.4667 3.99994 10.8181V11.8274L1.37933 8.90902L3.99994 5.99063V6.99992C3.99994 7.35139 4.25578 7.6363 4.57139 7.6363H10.8572V9.54541C10.8573 9.89688 11.1132 10.1817 11.4287 10.1816C11.5802 10.1816 11.7255 10.1146 11.8326 9.99531L15.8327 5.54072C16.0558 5.2922 16.0558 4.88939 15.8327 4.64091Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            Transfer
+                            <lang name="walletsview.button.transfer"></lang>
                         </button>
                         <button class="menu-action" data-selector="actions.copyaddress">
                             <div class="menu-action__icon">
@@ -1845,7 +1849,7 @@
                                     <path d="M9.52511 0H2.81152V12.9973H13.0917V4.12329L9.52511 0ZM4.69972 10.9805V2.01683H8.43415V5.01966H11.2455V11.0253H4.69972V10.9805Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            <nobr>Copy Address</nobr>
+                            <nobr><lang name="walletsview.button.copyaddress"></lang></nobr>
                         </button>
                         <button class="menu-action" data-selector="actions.forging">
                             <div class="menu-action__icon">
@@ -1855,7 +1859,7 @@
                                     <path d="M0.101586 9.44357L4.8626 9.64153V9.499C4.8626 9.38815 4.95878 9.29313 5.07099 9.30105L5.68014 9.31688V9.05558C5.68014 8.96848 5.75228 8.89722 5.84045 8.89722H14.9938C14.9938 8.89722 15.09 9.72071 14.5209 9.9345C13.4709 10.3225 10.4732 10.275 9.99231 12.1358C9.61559 13.5848 10.8099 13.8303 11.2667 13.9332C11.3789 13.957 11.4751 14.0124 11.5553 14.0916C11.8037 14.3291 12.3087 14.8359 12.3247 14.9467C12.3488 15.0893 12.3247 15.9999 12.3247 15.9999H10.4973C10.4973 15.9999 9.64765 15.0893 8.22897 15.1843C6.81028 15.2793 6.26525 15.889 6.26525 15.889L4.37367 15.8653V14.8359L5.04695 14.147C5.1271 14.0678 5.23129 14.0124 5.34351 13.9966C5.75228 13.9411 6.7141 13.7353 6.69006 13.0543C6.64196 11.8666 5.97671 12.017 5.24733 11.922C4.70229 11.8507 3.3317 11.9853 2.05729 11.2331C1.10348 10.6709 0.350056 9.95034 0.0294494 9.62569C-0.0346719 9.54651 0.0134191 9.44357 0.101586 9.44357Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            <nobr>Forging Info</nobr>
+                            <nobr><lang name="walletsview.button.forginginfo"></lang></nobr>
                         </button>
                         <button class="menu-action" data-selector="actions.qr">
                             <div class="menu-action__icon">
@@ -1874,7 +1878,7 @@
                                     <path d="M12.8696 14.9565H11.8262V16H12.8696V14.9565Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            <nobr>Show QR</nobr>
+                            <nobr><lang name="walletsview.button.showqr"></lang></nobr>
                         </button>
                     </div>
                 </div>
@@ -2706,7 +2710,7 @@
                                     <path d="M15.8327 4.64091L11.8326 0.186315C11.6094 -0.0621671 11.2476 -0.0620925 11.0245 0.186464C10.9174 0.305783 10.8572 0.467535 10.8572 0.63626V2.54537H6.85712C6.54151 2.54537 6.28567 2.83028 6.28567 3.18175C6.28567 3.53322 6.54151 3.81813 6.85712 3.81813H11.4286C11.7442 3.81813 12.0001 3.53322 12.0001 3.18175V2.17242L14.6207 5.09081L12.0001 8.00921V6.99992C12.0001 6.64845 11.7442 6.36354 11.4286 6.36354H5.14281V4.45443C5.14274 4.10296 4.88683 3.81813 4.57126 3.8182C4.41978 3.81824 4.2745 3.88524 4.16736 4.00453L0.167321 8.45912C-0.0557737 8.70764 -0.0557737 9.11045 0.167321 9.35893L4.16739 13.8135C4.27453 13.9329 4.41985 14 4.57139 14C4.64649 14.0003 4.72092 13.9838 4.79023 13.9516C5.00372 13.853 5.14287 13.621 5.14281 13.3636V11.4545H9.14287C9.45848 11.4545 9.71432 11.1696 9.71432 10.8181C9.71432 10.4667 9.45848 10.1817 9.14287 10.1817H4.57139C4.25578 10.1817 3.99994 10.4667 3.99994 10.8181V11.8274L1.37933 8.90902L3.99994 5.99063V6.99992C3.99994 7.35139 4.25578 7.6363 4.57139 7.6363H10.8572V9.54541C10.8573 9.89688 11.1132 10.1817 11.4287 10.1816C11.5802 10.1816 11.7255 10.1146 11.8326 9.99531L15.8327 5.54072C16.0558 5.2922 16.0558 4.88939 15.8327 4.64091Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            Transfer
+                            <lang name="walletsview.button.transfer"></lang>
                         </button>
                         <button class="menu-action" data-selector="actions.copyaddress">
                             <div class="menu-action__icon">
@@ -2715,7 +2719,7 @@
                                     <path d="M9.52511 0H2.81152V12.9973H13.0917V4.12329L9.52511 0ZM4.69972 10.9805V2.01683H8.43415V5.01966H11.2455V11.0253H4.69972V10.9805Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            Copy Address
+                            <lang name="walletsview.button.copyaddress"></lang>
                         </button>
                         <button class="menu-action" data-selector="actions.forging">
                             <div class="menu-action__icon">
@@ -2725,7 +2729,7 @@
                                     <path d="M0.101586 9.44357L4.8626 9.64153V9.499C4.8626 9.38815 4.95878 9.29313 5.07099 9.30105L5.68014 9.31688V9.05558C5.68014 8.96848 5.75228 8.89722 5.84045 8.89722H14.9938C14.9938 8.89722 15.09 9.72071 14.5209 9.9345C13.4709 10.3225 10.4732 10.275 9.99231 12.1358C9.61559 13.5848 10.8099 13.8303 11.2667 13.9332C11.3789 13.957 11.4751 14.0124 11.5553 14.0916C11.8037 14.3291 12.3087 14.8359 12.3247 14.9467C12.3488 15.0893 12.3247 15.9999 12.3247 15.9999H10.4973C10.4973 15.9999 9.64765 15.0893 8.22897 15.1843C6.81028 15.2793 6.26525 15.889 6.26525 15.889L4.37367 15.8653V14.8359L5.04695 14.147C5.1271 14.0678 5.23129 14.0124 5.34351 13.9966C5.75228 13.9411 6.7141 13.7353 6.69006 13.0543C6.64196 11.8666 5.97671 12.017 5.24733 11.922C4.70229 11.8507 3.3317 11.9853 2.05729 11.2331C1.10348 10.6709 0.350056 9.95034 0.0294494 9.62569C-0.0346719 9.54651 0.0134191 9.44357 0.101586 9.44357Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            Wallet Forging
+                            <lang name="walletsview.button.walletforging"></lang>
                         </button>
                         <button class="menu-action" data-selector="actions.qr">
                             <div class="menu-action__icon">
@@ -2744,7 +2748,7 @@
                                     <path d="M12.8696 14.9565H11.8262V16H12.8696V14.9565Z" fill="currentColor"></path>
                                 </svg>
                             </div>
-                            <nobr>Show QR</nobr>
+                            <nobr><lang name="walletsview.button.showqr"></lang></nobr>
                         </button>
                     </div>
                 </div>
@@ -2889,7 +2893,7 @@
                                     <path d="M15.8327 4.64091L11.8326 0.186315C11.6094 -0.0621671 11.2476 -0.0620925 11.0245 0.186464C10.9174 0.305783 10.8572 0.467535 10.8572 0.63626V2.54537H6.85712C6.54151 2.54537 6.28567 2.83028 6.28567 3.18175C6.28567 3.53322 6.54151 3.81813 6.85712 3.81813H11.4286C11.7442 3.81813 12.0001 3.53322 12.0001 3.18175V2.17242L14.6207 5.09081L12.0001 8.00921V6.99992C12.0001 6.64845 11.7442 6.36354 11.4286 6.36354H5.14281V4.45443C5.14274 4.10296 4.88683 3.81813 4.57126 3.8182C4.41978 3.81824 4.2745 3.88524 4.16736 4.00453L0.167321 8.45912C-0.0557737 8.70764 -0.0557737 9.11045 0.167321 9.35893L4.16739 13.8135C4.27453 13.9329 4.41985 14 4.57139 14C4.64649 14.0003 4.72092 13.9838 4.79023 13.9516C5.00372 13.853 5.14287 13.621 5.14281 13.3636V11.4545H9.14287C9.45848 11.4545 9.71432 11.1696 9.71432 10.8181C9.71432 10.4667 9.45848 10.1817 9.14287 10.1817H4.57139C4.25578 10.1817 3.99994 10.4667 3.99994 10.8181V11.8274L1.37933 8.90902L3.99994 5.99063V6.99992C3.99994 7.35139 4.25578 7.6363 4.57139 7.6363H10.8572V9.54541C10.8573 9.89688 11.1132 10.1817 11.4287 10.1816C11.5802 10.1816 11.7255 10.1146 11.8326 9.99531L15.8327 5.54072C16.0558 5.2922 16.0558 4.88939 15.8327 4.64091Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            Transfer
+                            <lang name="walletsview.button.transfer"></lang>
                         </button>
                         <button class="menu-action" data-selector="actions.copyaddress">
                             <div class="menu-action__icon">
@@ -2898,7 +2902,7 @@
                                     <path d="M9.52511 0H2.81152V12.9973H13.0917V4.12329L9.52511 0ZM4.69972 10.9805V2.01683H8.43415V5.01966H11.2455V11.0253H4.69972V10.9805Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            Copy Address
+                            <lang name="walletsview.button.copyaddress"></lang>
                         </button>
                         <button class="menu-action" data-selector="actions.transactions">
                             <div class="menu-action__icon">
@@ -2908,7 +2912,7 @@
                                     <path d="M0.101586 9.44357L4.8626 9.64153V9.499C4.8626 9.38815 4.95878 9.29313 5.07099 9.30105L5.68014 9.31688V9.05558C5.68014 8.96848 5.75228 8.89722 5.84045 8.89722H14.9938C14.9938 8.89722 15.09 9.72071 14.5209 9.9345C13.4709 10.3225 10.4732 10.275 9.99231 12.1358C9.61559 13.5848 10.8099 13.8303 11.2667 13.9332C11.3789 13.957 11.4751 14.0124 11.5553 14.0916C11.8037 14.3291 12.3087 14.8359 12.3247 14.9467C12.3488 15.0893 12.3247 15.9999 12.3247 15.9999H10.4973C10.4973 15.9999 9.64765 15.0893 8.22897 15.1843C6.81028 15.2793 6.26525 15.889 6.26525 15.889L4.37367 15.8653V14.8359L5.04695 14.147C5.1271 14.0678 5.23129 14.0124 5.34351 13.9966C5.75228 13.9411 6.7141 13.7353 6.69006 13.0543C6.64196 11.8666 5.97671 12.017 5.24733 11.922C4.70229 11.8507 3.3317 11.9853 2.05729 11.2331C1.10348 10.6709 0.350056 9.95034 0.0294494 9.62569C-0.0346719 9.54651 0.0134191 9.44357 0.101586 9.44357Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            Transactions
+                            <lang name="walletsview.button.transactions"></lang>
                         </button>
                         <button class="menu-action" data-selector="actions.delegations">
                             <div class="menu-action__icon">
@@ -2917,7 +2921,7 @@
                                     <path d="M2.58641 18L0 15.0069C3.21342 13.6317 3.97106 12.9576 4.80707 12.3914C5.64308 11.8251 6.94935 11.9869 7.26285 12.1756C7.57636 12.3644 9.30063 12.5531 10.3456 12.661C11.3907 12.7689 12.7492 12.8228 12.5141 13.7935C12.2789 14.7642 11.2339 14.4407 9.87539 14.3867C8.78858 14.3436 8.08145 14.5845 7.86374 14.7103C8.97842 14.8991 11.422 15.1903 12.2789 14.8451C13.1358 14.5 13.1062 13.5688 12.9843 13.1464C13.9771 12.8498 16.0253 12.2404 16.2761 12.1756C16.5896 12.0947 17.5301 11.8251 17.8698 12.3914C18.2094 12.9576 17.8959 13.3082 16.7986 13.7935C15.7013 14.2789 12.0177 16.4361 11.7564 16.5978C11.5474 16.7273 11.1817 16.7776 11.0249 16.7866C9.93635 16.6787 7.36736 16.49 5.79983 16.5978C4.23231 16.7057 3.00442 17.5776 2.58641 18Z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            Delegations
+                            <lang name="walletsview.button.delegations"></lang>
                         </button>
                     </div>
                 </div>
@@ -4411,7 +4415,7 @@
                     </button>
                 </div>
                 <div class="page-nav-center">
-                    Add #MHC wallet
+                    <lang name="createwalletview.navtitle"></lang>
                 </div>
                 <div class="page-nav-right">
                     <!--..-->
@@ -4438,11 +4442,11 @@
                 <!-- form -->
                 <form class="" data-selector="form.walletcreate">
                     <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Wallet Name" name="name">
+                        <input class="form-control" type="text" placeholder="createwalletview.placeholder.walletname" name="name">
                     </div>
                     <div class="form-group">
                         <!-- error: .form-control--error -->
-                        <input class="form-control" type="text" placeholder="Wallet Password" value="" name="password" autocomplete="off">
+                        <input class="form-control" type="text" placeholder="createwalletview.placeholder.walletpassword" value="" name="password" autocomplete="off">
                     </div>
 
                     <div class="alert-two-actions">
@@ -4455,14 +4459,16 @@
                                 <path d="M5.88666 1.52392L5.18848 2.28516L6.61698 3.84178L7.31517 3.08055L5.88666 1.52392Z" fill="currentColor"/>
                                 <path d="M10.1176 3.13232L0.421864 13.7006L2.53159 16.0002L12.2273 5.43191L10.1176 3.13232ZM7.963 6.99758L10.0727 4.698L10.7909 5.48084L8.68119 7.78043L7.963 6.99758Z" fill="currentColor"/>
                             </svg><!--
-                         -->Generate
+                         -->
+                            <lang name="createwalletview.button.generate"></lang>
                         </button>
                         <button class="btn btn-outline btn-xs btn-inline" type="button" data-selector="actions.copypassword">
                             <svg class="icon icon-left icon-copy-inline" width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.52895 16.0001H0V3.9541H3.46154V5.8233H1.75021V14.1309H7.81763V13.217H9.52895V16.0001Z" fill="currentColor"/>
                                 <path d="M10.6937 0H4.4707V12.046H13.9996V3.82147L10.6937 0ZM6.22092 10.1768V1.8692H9.68245V4.65223H12.2883V10.2183H6.22092V10.1768Z" fill="currentColor"/>
                             </svg><!--
-                         -->Copy
+                         -->
+                            <lang name="createwalletview.button.copy"></lang>
                         </button>
                     </div>
 
@@ -4477,8 +4483,12 @@
             </div>
 
             <div class="alert-outer-actions alert-outer-actions--wide">
-                <button class="btn btn-outline btn-sm" type="button" data-selector="actions.scanqrcode">Scan Qr code</button>
-                <button class="btn btn-outline btn-sm disabled" type="button">open file with qr code</button>
+                <button class="btn btn-outline btn-sm" type="button" data-selector="actions.scanqrcode">
+                    <lang name="createwalletview.button.scanqr"></lang>
+                </button>
+                <button class="btn btn-outline btn-sm disabled" type="button">
+                    <lang name="createwalletview.button.openfileqr"></lang>
+                </button>
             </div>
 
         </div>
@@ -5284,7 +5294,7 @@
         </div>
 
         <div class="btm-menu-title">
-            transaction information
+            <lang name="transactionview.title"></lang>
         </div>
 
         <div class="btm-menu-content">
@@ -5295,7 +5305,7 @@
                         <path d="M23.8327 13.6409L19.8326 9.18631C19.6094 8.93783 19.2476 8.93791 19.0245 9.18646C18.9174 9.30578 18.8572 9.46754 18.8572 9.63626V11.5454H14.8571C14.5415 11.5454 14.2857 11.8303 14.2857 12.1817C14.2857 12.5332 14.5415 12.8181 14.8571 12.8181H19.4286C19.7442 12.8181 20.0001 12.5332 20.0001 12.1817V11.1724L22.6207 14.0908L20.0001 17.0092V15.9999C20.0001 15.6484 19.7442 15.3635 19.4286 15.3635H13.1428V13.4544C13.1427 13.103 12.8868 12.8181 12.5713 12.8182C12.4198 12.8182 12.2745 12.8852 12.1674 13.0045L8.16732 17.4591C7.94423 17.7076 7.94423 18.1105 8.16732 18.3589L12.1674 22.8135C12.2745 22.9329 12.4198 23 12.5714 23C12.6465 23.0003 12.7209 22.9838 12.7902 22.9516C13.0037 22.853 13.1429 22.621 13.1428 22.3636V20.4545H17.1429C17.4585 20.4545 17.7143 20.1696 17.7143 19.8181C17.7143 19.4667 17.4585 19.1817 17.1429 19.1817H12.5714C12.2558 19.1817 11.9999 19.4667 11.9999 19.8181V20.8274L9.37933 17.909L11.9999 14.9906V15.9999C11.9999 16.3514 12.2558 16.6363 12.5714 16.6363H18.8572V18.5454C18.8573 18.8969 19.1132 19.1817 19.4287 19.1816C19.5802 19.1816 19.7255 19.1146 19.8326 18.9953L23.8327 14.5407C24.0558 14.2922 24.0558 13.8894 23.8327 13.6409Z" fill="currentColor"/>
                     </svg>
                     <div class="btm-menu-action-text">
-                        Repeat Transfer
+                        <lang name="transactionview.repeattransfer"></lang>
                     </div>
                 </button>
             </div>
@@ -5304,7 +5314,7 @@
                 <div class="btn-menu-option">
                     <div class="btn-menu-params">
                         <div class="btn-menu-params__label">
-                            Operation Type
+                            <lang name="transactionview.operation.type"></lang>
                         </div>
                         <div class="btn-menu-params__value" data-selector="transaction.type">
                             <!-- Transfer to #MHC address -->
@@ -5314,7 +5324,7 @@
                 <div class="btn-menu-option">
                     <div class="btn-menu-params">
                         <div class="btn-menu-params__label">
-                            Date and Time
+                            <lang name="transactionview.operation.datetime"></lang>
                         </div>
                         <div class="btn-menu-params__value" data-selector="transaction.time">
                             <!--5/30/2018, 12:00:43 PM (+GMT)-->
@@ -5324,7 +5334,7 @@
                 <div class="btn-menu-option">
                     <div class="btn-menu-params">
                         <div class="btn-menu-params__label">
-                            From Wallet
+                            <lang name="transactionview.operation.from"></lang>
                         </div>
                         <div class="btn-menu-params__value">
                             <div class="btn-menu-params__value-special" data-selector="transaction.from.name"><!--SuperWallet--></div>
@@ -5335,7 +5345,7 @@
                 <div class="btn-menu-option">
                     <div class="btn-menu-params">
                         <div class="btn-menu-params__label">
-                            Recipient
+                            <lang name="transactionview.operation.to"></lang>
                             <!--<i class="icon icon-add"></i>-->
                             <!--
                             <i class="icon icon-address-book"></i>
@@ -5350,7 +5360,7 @@
                 <div class="btn-menu-option">
                     <div class="btn-menu-params">
                         <div class="btn-menu-params__label">
-                            Transfer Amount
+                            <lang name="transactionview.operation.amount"></lang>
                         </div>
                         <!-- .color-green/.color-red -->
                         <div class="btn-menu-params__value" data-selector="transaction.value">
@@ -5361,7 +5371,7 @@
                 <div class="btn-menu-option">
                     <div class="btn-menu-params">
                         <div class="btn-menu-params__label">
-                            Data
+                            <lang name="transactionview.operation.data"></lang>
                         </div>
                         <!-- .color-green/.color-red -->
                         <div class="btn-menu-params__value" data-selector="transaction.data">
@@ -5373,7 +5383,7 @@
                     <div class="btn-menu-status">
                         <div class="btn-menu-params">
                             <div class="btn-menu-params__label">
-                                Status
+                                <lang name="transactionview.operation.status"></lang>
                             </div>
                             <div class="btn-menu-params__value">
                                 <span class="color-blue-light" data-selector="transaction.status"><!--sending--></span>
@@ -5392,7 +5402,9 @@
                                 <path d="M9.52511 0H2.81152V12.9973H13.0917V4.12329L9.52511 0ZM4.69972 10.9805V2.01683H8.43415V5.01966H11.2455V11.0253H4.69972V10.9805Z" fill="currentColor"></path>
                             </svg>
                         </div>
-                        <div>Copy<br/>Hash</div>
+                        <div>
+                            <lang name="transactionview.button.copyhash"></lang>
+                        </div>
                     </button>
                     <button class="menu-action menu-action--inline" data-selector="actions.repeat">
                         <div class="menu-action__icon">
@@ -5403,7 +5415,9 @@
                                 <path d="M4.16246 7.7728C4.02125 7.7728 3.88004 7.72573 3.76824 7.61981L2.37374 6.36652L0.979237 7.61981C0.737993 7.83752 0.367299 7.81401 0.149591 7.57277C-0.0681164 7.33152 -0.0445883 6.96081 0.196655 6.7431L1.98539 5.13678C2.20899 4.93673 2.55026 4.93673 2.77385 5.13678L4.56259 6.7431C4.80383 6.96081 4.82736 7.33152 4.60965 7.57277C4.48609 7.7081 4.32721 7.7728 4.16246 7.7728Z" fill="#99CEFF"/>
                             </svg>
                         </div>
-                        <div>Repeat<br/>Trans.</div>
+                        <div>
+                            <lang name="transactionview.button.repeattrans"></lang>
+                        </div>
                     </button>
                     <button class="menu-action menu-action--inline" data-selector="actions.info">
                         <div class="menu-action__icon">
@@ -5412,7 +5426,9 @@
                                 <path d="M7.99577 16C5.86266 16 3.85179 15.1715 2.34367 13.657C0.835547 12.1494 0 10.1392 0 8C0 5.86078 0.835547 3.85739 2.34367 2.34295C3.85179 0.835314 5.86267 0 8.00257 0C10.1357 0 12.1465 0.828523 13.6614 2.34295C16.7795 5.4601 16.7795 10.5331 13.6614 13.6503C12.1465 15.1647 10.1357 16 7.99577 16ZM7.99577 1.35823C6.22271 1.35823 4.55153 2.05093 3.30155 3.30051C2.04478 4.55688 1.35187 6.22071 1.35187 7.99321C1.35187 9.7657 2.04478 11.4363 3.29475 12.6859C4.55152 13.9423 6.21591 14.6282 7.98897 14.6282C9.76203 14.6282 11.4332 13.9355 12.69 12.6859C15.2783 10.0985 15.2783 5.88795 12.69 3.29372C11.44 2.05093 9.77563 1.35823 7.99577 1.35823Z" fill="#99CEFF"/>
                             </svg>
                         </div>
-                        <div>Check<br/>Info</div>
+                        <div>
+                            <lang name="transactionview.button.checkinfo"></lang>
+                        </div>
                     </button>
                 </div>
             </div>
