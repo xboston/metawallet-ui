@@ -79,7 +79,7 @@ window.appLang = {
     "menu.settings": "Настройки",
     "menu.support": "Поддержка",
     "menu.logout": "Выход",
-    "menu.coindelegation": "Делегирование MHC",
+    "menu.coindelegation": "Делегирование",
 
     // PasscodeAlertView
 
@@ -145,17 +145,17 @@ window.appLang = {
     "currenciesview.totalassetsvalue": "Доступный баланс",
     "currenciesview.tab.currencies": "Валюты",
     "currenciesview.tab.wallets": "Недавние кошельки",
-    "currenciesview.card.wallets": "Количество кошельков: <b><!--XX--></b>",
-    "currenciesview.card.currencyrate": "Курс валюты",
+    "currenciesview.card.wallets": "Кошельков: <b><!--XX--></b>",
+    "currenciesview.card.currencyrate": "Курс",
 
     // WalletsView
 
     "walletsview.tab.wallets": "Кошельки",
     "walletsview.tab.latesttransactions": "История операций",
-    "walletsview.button.importpk": "Импортировать закрытый ключ",
+    "walletsview.button.importpk": "Импортировать ключ",
     "walletsview.button.transfer": "Перевод",
     "walletsview.button.forging": "Форжинг",
-    "walletsview.button.copyaddress": "Копировать адрес",
+    "walletsview.button.copyaddress": "Копировать&nbsp;адрес",
     "walletsview.button.showqr": "Показать QR-код",
     "walletsview.button.savepk": "Созранить закрытый ключ",
     "walletsview.button.forginginfo": "Форжинг",
@@ -165,13 +165,13 @@ window.appLang = {
 
     // WalletView
 
-   "createwalletview.navtitle": "Добавить #MHC кошелёк",
+    "createwalletview.navtitle": "Добавить #MHC кошелёк",
     "createwalletview.title": "Создать кошелёк",
     "createwalletview.button.add": "Добавить кошелёк",
     "createwalletview.button.addtip": "Добавить новый или импортировать из QR-кода",
     "createwalletview.placeholder.walletname": "Наименование кошелька",
     "createwalletview.placeholder.walletpassword": "Пароль для кошелька",
-   "createwalletview.button.generate": "Генерировать",
+    "createwalletview.button.generate": "Генерировать",
     "createwalletview.button.copy": "Копировать",
     "createwalletview.button.scanqr": "Отсканировать QR-код",
     "createwalletview.button.openfileqr": "Открыть файл с QR-кодом",
@@ -236,7 +236,7 @@ window.appLang = {
     "qrcodealertview.comment.pknotexists": "На устройстве не найден закрытый ключ соответствующий этому кошельку.",
     "qrcodealertview.actions.saveqr": "Сохранить изображение QR-кода",
     "qrcodealertview.actions.showpkqr": "Показать QR-код для закрытого ключа",
-    "qrcodealertview.hint": "Выполните свайп слева направо или наоборот для переключения<br> между кошельком и закрытым ключем",
+    "qrcodealertview.hint": "Выполните свайп слева направо или наоборот для переключения<br> между публичным адресом и закрытым ключём",
 
     // WalletCreatedAlertView
 

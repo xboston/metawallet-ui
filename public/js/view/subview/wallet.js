@@ -35,7 +35,8 @@ class WalletSubView extends View {
         this.actionSavePkElement.bind("click", function () {
             this.savePk();
         }.bind(this), this.app);
-        this.element.qs("actions.transfer").bind("click", function () {
+        this.actionsTransferElement = this.element.qs("actions.transfer");
+        this.actionsTransferElement.bind("click", function () {
             showTransfer(this.app, this.wallet);
         }.bind(this), this.app);
         this.element.qs("actions.qr").bind("click", function () {
@@ -67,10 +68,12 @@ class WalletSubView extends View {
         if (!this.wallet.privateKeyExists) {
             this.element.classList.add("desaturated");
             this.actionImportPkElement.show();
+            this.actionsTransferElement.hide();
             this.actionSavePkElement.hide();
         } else {
             this.element.classList.remove("desaturated");
             this.actionImportPkElement.hide();
+            this.actionsTransferElement.show();
         }
         this.element.querySelector(".wallet-currency i").classList.add("icon-" + this.wallet.currency.code);
         if (this.wallet.name && this.wallet.name.length > 0) {
