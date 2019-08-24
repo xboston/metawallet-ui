@@ -114,6 +114,8 @@ window.appLang = {
     "auth.title.welcome": "Welcome back",
     "auth.button.login": "Login",
     "auth.button.createaccount": "Create account",
+    "auth.placeholder.login": "E-mail",
+    "auth.placeholder.password": "Password",
     "auth.link.resetpassword": " Forgot password?",
     "auth.error.usernotfound": "User not found",
 
@@ -143,17 +145,37 @@ window.appLang = {
     "currenciesview.totalassetsvalue": "Total Assets Value",
     "currenciesview.tab.currencies": "Currencies",
     "currenciesview.tab.wallets": "Recent Wallets",
-    "currenciesview.card.wallets": "wallets",
+    "currenciesview.card.wallets": "<b><!--XX--></b> wallets",
     "currenciesview.card.currencyrate": "Currency rate",
 
     // WalletsView
 
     "walletsview.tab.wallets": "Wallets",
     "walletsview.tab.latesttransactions": "Latest Transactions",
+    "walletsview.button.importpk": "Import PK",
+    "walletsview.button.transfer": "Transfer",
+    "walletsview.button.forging": "Forging",
+    "walletsview.button.copyaddress": "Copy Address",
+    "walletsview.button.showqr": "Show QR",
+    "walletsview.button.savepk": "Save PK",
+    "walletsview.button.forginginfo": "Forging Info",
+    "walletsview.button.transactions": "Transactions",
+    "walletsview.button.delegations": "Delegations",
+    "walletsview.button.walletforging": "Wallet Forging",
+    
 
     // WalletView
 
+    "createwalletview.navtitle": "Add #MHC wallet",
     "createwalletview.title": "Create new wallet",
+    "createwalletview.button.add": "Add wallet",
+    "createwalletview.button.addtip": "Create new or import from QR code",
+    "createwalletview.placeholder.walletname": "Wallet Name",
+    "createwalletview.placeholder.walletpassword": "Wallet Password",
+    "createwalletview.button.generate": "Generate",
+    "createwalletview.button.copy": "Copy",
+    "createwalletview.button.scanqr": "Scan Qr code",
+    "createwalletview.button.openfileqr": "Open file with qr code",
 
     // TransferView
 
@@ -162,10 +184,22 @@ window.appLang = {
 
     // TransactionView
 
+    "transactionview.title": "transaction information",
+    "transactionview.repeattransfer": "Repeat Transfer",
+    "transactionview.operation.type": "Operation Type",
+    "transactionview.operation.datetime": "Date and Time",
+    "transactionview.operation.from": "From Wallet",
+    "transactionview.operation.to": "Recipient",
+    "transactionview.operation.amount": "Transfer Amount",
+    "transactionview.operation.status": "Status",
+    "transactionview.operation.data": "Data",
     "transactionview.status.0": "Unknown",
     "transactionview.status.10": "In Progress",
     "transactionview.status.20": "Done",
     "transactionview.status.40": "Not Accepted",
+    "transactionview.button.copyhash": "Copy<br/>Hash",
+    "transactionview.button.checkinfo": "Check<br/>Info",
+    "transactionview.button.repeattrans": "Repeat<br/>Trans.",
 
     // AppsView
 
