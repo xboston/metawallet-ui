@@ -108,7 +108,8 @@ class WalletView extends View {
                 innerElement: this._transactionsWrapper
             }
         });
-        this.element.qs("actions.transfer").bind("click", function () {
+        this.actionsTransferElement = this.element.qs("actions.transfer");
+        this.actionsTransferElement.bind("click", function () {
             showTransfer(this.app, this.wallet);
         }.bind(this), this.app);
         /** @type {HTMLElement|xD} */
@@ -209,10 +210,12 @@ class WalletView extends View {
         if (!this.wallet.privateKeyExists) {
             this.walletBlockElement.parentElement.classList.add("desaturated");
             this.actionImportPkElement.show();
+            this.actionsTransferElement.hide();
             this.actionSavePkElement.hide();
         } else {
             this.walletBlockElement.parentElement.classList.remove("desaturated");
             this.actionImportPkElement.hide();
+            this.actionsTransferElement.show();
             this.actionSavePkElement.show();
         }
         this.walletCardSubView.update();
