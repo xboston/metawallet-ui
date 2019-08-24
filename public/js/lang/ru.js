@@ -114,6 +114,8 @@ window.appLang = {
     "auth.title.welcome": "Здравствуйте",
     "auth.button.login": "Войти",
     "auth.button.createaccount": "Создать учетную запись",
+    "auth.placeholder.login": "E-mail",
+    "auth.placeholder.password": "Пароль",
     "auth.link.resetpassword": "Забыли пароль?",
     "auth.error.usernotfound": "Пользователь не найден",
 
@@ -140,20 +142,39 @@ window.appLang = {
     "wallets.settings.base.currency.4": "MHC",
     "wallets.settings.base.currency.1000": "USD",
 
-    "currenciesview.totalassetsvalue": "Общая стоимость",
+    "currenciesview.totalassetsvalue": "Доступный баланс",
     "currenciesview.tab.currencies": "Валюты",
     "currenciesview.tab.wallets": "Недавние кошельки",
-    "currenciesview.card.wallets": "wallets",
+    "currenciesview.card.wallets": "Количество кошельков: <b><!--XX--></b>",
     "currenciesview.card.currencyrate": "Курс валюты",
 
     // WalletsView
 
     "walletsview.tab.wallets": "Кошельки",
-    "walletsview.tab.latesttransactions": "Недавние транзакции",
+    "walletsview.tab.latesttransactions": "История операций",
+    "walletsview.button.importpk": "Импортировать закрытый ключ",
+    "walletsview.button.transfer": "Перевод",
+    "walletsview.button.forging": "Форжинг",
+    "walletsview.button.copyaddress": "Копировать адрес",
+    "walletsview.button.showqr": "Показать QR-код",
+    "walletsview.button.savepk": "Созранить закрытый ключ",
+    "walletsview.button.forginginfo": "Форжинг",
+    "walletsview.button.transactions": "Операции",
+    "walletsview.button.delegations": "Делегирование",
+    "walletsview.button.walletforging": "Форжинг кошельком",
 
     // WalletView
 
+   "createwalletview.navtitle": "Добавить #MHC кошелёк",
     "createwalletview.title": "Создать кошелёк",
+    "createwalletview.button.add": "Добавить кошелёк",
+    "createwalletview.button.addtip": "Добавить новый или импортировать из QR-кода",
+    "createwalletview.placeholder.walletname": "Наименование кошелька",
+    "createwalletview.placeholder.walletpassword": "Пароль для кошелька",
+   "createwalletview.button.generate": "Генерировать",
+    "createwalletview.button.copy": "Копировать",
+    "createwalletview.button.scanqr": "Отсканировать QR-код",
+    "createwalletview.button.openfileqr": "Открыть файл с QR-кодом",
 
     // TransferView
 
@@ -162,10 +183,22 @@ window.appLang = {
 
     // TransactionView
 
+    "transactionview.title": "Информация об операции",
+    "transactionview.repeattransfer": "Повторить перевод",
+    "transactionview.operation.type": "Тип операции",
+    "transactionview.operation.datetime": "Дата и время",
+    "transactionview.operation.from": "Отправитель",
+    "transactionview.operation.to": "Получатель",
+    "transactionview.operation.amount": "Сумма операции",
+    "transactionview.operation.status": "Статус операции",
+    "transactionview.operation.data": "Данные",
     "transactionview.status.0": "Статус не известен",
     "transactionview.status.10": "В процессе",
     "transactionview.status.20": "Выполнена",
     "transactionview.status.40": "Не принята",
+    "transactionview.button.copyhash": "Копировать<br/>хэш",
+    "transactionview.button.checkinfo": "Детальная<br/>информация",
+    "transactionview.button.repeattrans": "Повторить<br/>операцию",
 
     // AppsView
 
