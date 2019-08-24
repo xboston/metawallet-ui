@@ -23,7 +23,12 @@ function __ (str, params) {
  * Replace placeholders with localized strings
  */
 function onLocaleLoaded () {
-    document.body.querySelectorAll("lang[name]").forEach(function ( /** @type {HTMLElement} */ element) {
-        element.innerHTML = __(element.getAttribute("name"));
+    document.body.querySelectorAll("lang[name], input[placeholder]").forEach(function ( /** @type {HTMLElement} */ element) {
+        if (element.placeholder) {
+            element.placeholder = __(element.getAttribute("placeholder"));
+        }
+        else {
+            element.innerHTML = __(element.getAttribute("name"));
+        }
     });
 }
