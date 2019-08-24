@@ -3470,10 +3470,10 @@ form {
 
 .currency-stat {
   color: #99CEFF;
-  font-weight: 500;
+  font-weight: 350;
   font-size: 12px;
   margin-bottom: 6px;
-  text-transform: capitalize;
+  /*;text-transform: capitalize;*/
   text-align: left; }
 .currency-stat b {
   font-weight: 600; }
@@ -5474,7 +5474,7 @@ form {
 .btn-menu-params__label {
   font-weight: 500;
   text-align: left;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   min-width: 30%;
   padding-right: 5px; }
 .btn-menu-params__label .icon, .btn-menu-params__label .notification--loading .notification__text:before, .notification--loading .btn-menu-params__label .notification__text:before {
