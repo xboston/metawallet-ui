@@ -153,6 +153,7 @@ window.appLang = {
     "walletsview.tab.wallets": "Кошельки",
     "walletsview.tab.latesttransactions": "История операций",
     "walletsview.button.importpk": "Импортировать ключ",
+     "walletsview.button.editwallet": "Редактировать кошелек",
     "walletsview.button.transfer": "Перевод",
     "walletsview.button.forging": "Форжинг",
     "walletsview.button.copyaddress": "Копировать&nbsp;адрес",
@@ -175,6 +176,14 @@ window.appLang = {
     "createwalletview.button.copy": "Копировать",
     "createwalletview.button.scanqr": "Отсканировать QR-код",
     "createwalletview.button.openfileqr": "Открыть файл с QR-кодом",
+
+    // EditWalletView
+
+    "editwalletview.title": "Редактирование кошелька",
+    "editwalletview.tip": "Вы можете переименовать или удалить кошелек.",
+    "editwalletview.walletname": "Наименование кошелька",
+    "editwalletview.button.savechanges": "Сохранить",
+    "editwalletview.button.deletewallet": "Удалить кошелек",
 
     // TransferView
 
@@ -204,6 +213,9 @@ window.appLang = {
 
     "appsview.action.get": "Загрузить приложение",
     "appsview.action.open": "Открыть приложение",
+    "appsview.title": "#MetaApps",
+    "appsview.subtitle": "Приложения, основанные на технологии блокчейн",
+    "appsview.search.dapps": "Поиск приложений",
 
     // SettingsView
 
@@ -299,6 +311,22 @@ window.appLang = {
     "walletimportview.title.key.open": "Ключевой файл открыт",
     "walletimportview.address.unknown": "Неизвестный адрес",
 
+    // MetaPayView
+
+    "metapaview.amount": "Количество:",
+    "metapaview.wallet": "Кошелек:",
+    "metapaview.toaddress": "Получатель:",
+    "metapaview.data": "Информация:",
+    "metapaview.password": "Пароль:",
+    "metapaview.maxfee": "Максимальная комиссия:",
+    "metapaview.button.signandsend": "Подписать и отправить",
+    "metapaview.button.continue": "Далее",
+    
+    
+    // MetaPaySelectWalletAlertView
+
+    "selectwalletalertview.title": "Выбор кошелька",
+    
     // MetaPayAlertView
 
     "metapayalertview.error.nowallets": "Подходящих кошельков не найдено",
@@ -338,6 +366,20 @@ window.appLang = {
 
     // NodeView
     "nodeview.error.notenoghfunds": "Недостаточно средств для делегирования",
+    "nodeview.filter.recommended": "Рекомендуемые",
+    "nodeview.filter.allnodes": "Все ноды",
+    "nodeview.sort.balanceup": "Баланс",
+    "nodeview.title": "Ноды",
+    "nodeview.trust": "Уровень доверия",
+    "nodeview.roi": "ROI",
+    "nodeview.geo": "Местоположение",
+    "nodeview.avgrps": "Avg RPS",
+    "nodeview.lastcheck": "Последняя проверка",
+    "nodeview.search.node": "Поиск сервера",
+    "nodeview.button.delegate": "Делегировать",
+    "nodeview.button.undelegateall": "Разделегировать все",
+    "nodeview.button.moreinfo": "Больше информации",
+    "nodeview.button.undelegate": "Разделегировать",
 };
 
 /**
