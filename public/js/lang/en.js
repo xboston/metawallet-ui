@@ -153,6 +153,7 @@ window.appLang = {
     "walletsview.tab.wallets": "Wallets",
     "walletsview.tab.latesttransactions": "Latest Transactions",
     "walletsview.button.importpk": "Import PK",
+    "walletsview.button.editwallet": "Edit Wallet",
     "walletsview.button.transfer": "Transfer",
     "walletsview.button.forging": "Forging",
     "walletsview.button.copyaddress": "Copy Address",
@@ -176,6 +177,14 @@ window.appLang = {
     "createwalletview.button.copy": "Copy",
     "createwalletview.button.scanqr": "Scan Qr code",
     "createwalletview.button.openfileqr": "Open file with qr code",
+
+    // EditWalletView
+
+    "editwalletview.title": "Edit Wallet",
+    "editwalletview.tip": "You can rename or delete wallet.",
+    "editwalletview.walletname": "Wallet name",
+    "editwalletview.button.savechanges": "Save changes",
+    "editwalletview.button.deletewallet": "Delete wallet",
 
     // TransferView
 
@@ -205,6 +214,9 @@ window.appLang = {
 
     "appsview.action.get": "Get App",
     "appsview.action.open": "Open App",
+    "appsview.title": "#MetaApps",
+    "appsview.subtitle": "Collection of Apps, based on<br>blockchain technology",
+    "appsview.search.dapps": "Search DApps",
 
     // SettingsView
     
@@ -300,6 +312,21 @@ window.appLang = {
     "walletimportview.title.key.open": "Key file is open",
     "walletimportview.address.unknown": "Address unknown",
 
+   // MetaPayView
+
+    "metapaview.amount": "Amount:",
+    "metapaview.wallet": "Wallet:",
+    "metapaview.toaddress": "To Address:",
+    "metapaview.data": "Data:",
+    "metapaview.password": "Password:",
+    "metapaview.maxfee": "Max fee:",
+    "metapaview.button.signandsend": "Sign & Send:",
+    "metapaview.button.continue": "Continue",
+    
+    // MetaPaySelectWalletAlertView
+
+    "selectwalletalertview.title": "Select wallet",
+    
     // MetaPayAlertView
 
     "metapayalertview.error.nowallets": "No suitable wallets found",
@@ -339,6 +366,21 @@ window.appLang = {
 
     // NodeView
     "nodeview.error.notenoghfunds": "Not enough funds for delegation",
+    "nodeview.filter.recommended": "Recommended",
+    "nodeview.filter.allnodes": "All nodes",
+    "nodeview.sort.balanceup": "Balance up",
+    "nodeview.title": "Nodes",
+    "nodeview.trust": "Node trust",
+    "nodeview.roi": "ROI",
+    "nodeview.geo": "Geo",
+    "nodeview.avgrps": "Avg RPS",
+    "nodeview.lastcheck": "Last check",
+    "nodeview.search.node": "Search node",
+    "nodeview.button.delegate": "Delegate",
+    "nodeview.button.undelegateall": "Undelegate all",
+    "nodeview.button.moreinfo": "More Info",
+    "nodeview.button.undelegate": "Undelegate",
+
 };
 
 /**
