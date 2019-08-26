@@ -162,7 +162,6 @@ window.appLang = {
     "walletsview.button.forginginfo": "Forging Info",
     "walletsview.button.transactions": "Transactions",
     "walletsview.button.delegations": "Delegations",
-    "walletsview.button.walletforging": "Wallet Forging",
     
 
     // WalletView

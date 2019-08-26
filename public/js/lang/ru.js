@@ -153,7 +153,7 @@ window.appLang = {
     "walletsview.tab.wallets": "Кошельки",
     "walletsview.tab.latesttransactions": "История операций",
     "walletsview.button.importpk": "Импортировать ключ",
-     "walletsview.button.editwallet": "Редактировать кошелек",
+    "walletsview.button.editwallet": "Редактировать кошелек",
     "walletsview.button.transfer": "Перевод",
     "walletsview.button.forging": "Форжинг",
     "walletsview.button.copyaddress": "Копировать&nbsp;адрес",
@@ -162,7 +162,6 @@ window.appLang = {
     "walletsview.button.forginginfo": "Форжинг",
     "walletsview.button.transactions": "Операции",
     "walletsview.button.delegations": "Делегирование",
-    "walletsview.button.walletforging": "Форжинг кошельком",
 
     // WalletView
 
@@ -231,16 +230,16 @@ window.appLang = {
     "settings.menu.system": "Системные",
     "settings.menu.cacheclear": "Очистить кэш",
     "settings.menu.logout": "Выход",
-    
+
     "settings.cache.cleaned": "Кеш очищен",
-    
+
     // LocaleSettingsView
-    
+
     "settings.locale.title": "Языковые настройки ",
     "settings.locale.language": "Язык",
     "settings.locale.en": "English",
     "settings.locale.ru": "Русский",
-    
+
     // WalletsSettingsView
     "settings.wallets.title": "Кошельки",
     "settings.wallets.display": "Настройки отображения",
@@ -321,12 +320,12 @@ window.appLang = {
     "metapaview.maxfee": "Максимальная комиссия:",
     "metapaview.button.signandsend": "Подписать и отправить",
     "metapaview.button.continue": "Далее",
-    
-    
+
+
     // MetaPaySelectWalletAlertView
 
     "selectwalletalertview.title": "Выбор кошелька",
-    
+
     // MetaPayAlertView
 
     "metapayalertview.error.nowallets": "Подходящих кошельков не найдено",
