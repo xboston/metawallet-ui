@@ -128,17 +128,23 @@ class WalletView extends View {
                 wallet: this.wallet
             }));
         }.bind(this), this.app);
-        if (this.wallet.currency.id === CURRENCY_ID_MHC) {
-            this.element.qs("actions.forging").show();
-            this.element.qs("actions.forging").bind("click", function () {
-                this.app.pushView(new ForgingView( /** @type {ViewConfig} */ {
-                    app: this.app,
-                    wallet: this.wallet
-                }));
-            }.bind(this), this.app);
-        } else {
-            this.element.qs("actions.forging").hide();
-        }
+        // if (this.wallet.currency.id === CURRENCY_ID_MHC) {
+        //     this.element.qs("actions.forging").show();
+        //     this.element.qs("actions.forging").bind("click", function () {
+        //         this.app.pushView(new ForgingView( /** @type {ViewConfig} */ {
+        //             app: this.app,
+        //             wallet: this.wallet
+        //         }));
+        //     }.bind(this), this.app);
+        // } else {
+        //     this.element.qs("actions.forging").hide();
+        // }
+        this.element.qs("actions.delegations").onclick = function () {
+            this.app.pushView(new DelegationsView( /** @type {ViewConfig} */ {
+                app: this.app,
+                wallet: this.wallet
+            }));
+        }.bind(this);
         /** @type {ClipboardJS} */
         this._addressClipboard = new ClipboardJS(this.element.qs("actions.copyaddress"), {
             text: function () {

@@ -153,13 +153,12 @@ window.appLang = {
     "walletsview.tab.wallets": "Кошельки",
     "walletsview.tab.latesttransactions": "История операций",
     "walletsview.button.importpk": "Импортировать ключ",
-    "walletsview.button.editwallet": "Редактировать кошелек",
+    "walletsview.button.editwallet": "Редактировать",
     "walletsview.button.transfer": "Перевод",
     "walletsview.button.forging": "Форжинг",
     "walletsview.button.copyaddress": "Копировать&nbsp;адрес",
     "walletsview.button.showqr": "Показать QR-код",
     "walletsview.button.savepk": "Созранить закрытый ключ",
-    "walletsview.button.forginginfo": "Форжинг",
     "walletsview.button.transactions": "Операции",
     "walletsview.button.delegations": "Делегирование",
 
@@ -169,7 +168,7 @@ window.appLang = {
     "createwalletview.title": "Создать кошелёк",
     "createwalletview.button.add": "Добавить кошелёк",
     "createwalletview.button.addtip": "Добавить новый или импортировать из QR-кода",
-    "createwalletview.placeholder.walletname": "Наименование кошелька",
+    "createwalletview.placeholder.walletname": "Название кошелька",
     "createwalletview.placeholder.walletpassword": "Пароль для кошелька",
     "createwalletview.button.generate": "Генерировать",
     "createwalletview.button.copy": "Копировать",
@@ -179,7 +178,7 @@ window.appLang = {
     // EditWalletView
 
     "editwalletview.title": "Редактирование кошелька",
-    "editwalletview.tip": "Вы можете переименовать или удалить кошелек.",
+    "editwalletview.tip": "Вы можете переименовать или удалить кошелек",
     "editwalletview.walletname": "Наименование кошелька",
     "editwalletview.button.savechanges": "Сохранить",
     "editwalletview.button.deletewallet": "Удалить кошелек",

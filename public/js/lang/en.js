@@ -159,7 +159,6 @@ window.appLang = {
     "walletsview.button.copyaddress": "Copy Address",
     "walletsview.button.showqr": "Show QR",
     "walletsview.button.savepk": "Save PK",
-    "walletsview.button.forginginfo": "Forging Info",
     "walletsview.button.transactions": "Transactions",
     "walletsview.button.delegations": "Delegations",
     

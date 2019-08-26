@@ -47,9 +47,9 @@ class DelegationsView extends View {
         this.element.qs("actions.transfer").onclick = function () {
             showTransfer(this.app, this.wallet);
         }.bind(this);
-        this.element.qs("actions.forging").onclick = function () {
-            this.app.prevView();
-        }.bind(this);
+        // this.element.qs("actions.forging").onclick = function () {
+        //     this.app.prevView();
+        // }.bind(this);
         this.element.qs("actions.qr").onclick = function () {
             this.app.alertView(new QrCodeAlertView( /** @type {ViewConfig} */ {
                 app: this.app,

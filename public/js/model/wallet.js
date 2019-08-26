@@ -441,7 +441,7 @@ class Wallet {
             // @info надо учитывать текущие смещения и общий статус загруженнности списка
             this.delegations = [];
             this.app.nodesCollection.loadNodes().then(function () {
-                console.log("get-address-delegations", this.delegated, this.address);
+                // console.log("get-address-delegations", this.delegated, this.address);
                 xhr(getJsonRpcXhrParams("get-address-delegations", {
                         params: {
                             address: this.address,
