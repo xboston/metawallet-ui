@@ -62,7 +62,7 @@ window.appLang = {
     "transaction.metahash.name.1": "Подтвердить",
     "transaction.metahash.name.20": "Перевод",
     "transaction.metahash.name.101": "Фиксированная награда",
-    "transaction.metahash.name.102": "Награда за сервер",
+    "transaction.metahash.name.102": "Награда за ноду",
     "transaction.metahash.name.103": "Награда за делегирование",
     "transaction.metahash.name.104": "Рандомная награда",
     "transaction.metahash.name.forging": "Начать форджинг",
@@ -126,10 +126,16 @@ window.appLang = {
     // TermsView
 
     "termsview.needagree": "Прочитайте и согласитесь с условиями, чтобы продолжить",
+    "termsview.title": "Условиями предоставления услуг",
+    "termsview.agree": "Я согласен с условиями<br>предоставления услуг",
 
     // CreateAccountView
 
     "register.error.emailexists": "Учетная запись с этим e-mail уже существует",
+    "createaccountview.title": "Создание учетной записи",
+    "createaccountview.login": "E-mail",
+    "createaccountview.password": "Пароль",
+    "createaccountview.password2": "Подтвердите пароль",
 
     // CurrenciesView
 
@@ -151,6 +157,7 @@ window.appLang = {
     // WalletsView
 
     "walletsview.tab.wallets": "Кошельки",
+    "walletsview.tab.wallet": "Кошелек",
     "walletsview.tab.latesttransactions": "История операций",
     "walletsview.button.importpk": "Импортировать ключ",
     "walletsview.button.editwallet": "Редактировать",
@@ -161,6 +168,7 @@ window.appLang = {
     "walletsview.button.savepk": "Созранить закрытый ключ",
     "walletsview.button.transactions": "Операции",
     "walletsview.button.delegations": "Делегирование",
+    "walletsview.walletdelegations": "Делегирование",
 
     // WalletView
 
@@ -185,7 +193,7 @@ window.appLang = {
 
     // TransferView
 
-    "transferview.error.nodesoffline": "На текущий момент в сети нет активных серверов",
+    "transferview.error.nodesoffline": "На текущий момент в сети нет активных нод",
     "transferview.error.notaccepted": "Тразакция не принята",
 
     // TransactionView
@@ -373,11 +381,29 @@ window.appLang = {
     "nodeview.geo": "Местоположение",
     "nodeview.avgrps": "Avg RPS",
     "nodeview.lastcheck": "Последняя проверка",
-    "nodeview.search.node": "Поиск сервера",
+    "nodeview.search.node": "Поиск ноды",
     "nodeview.button.delegate": "Делегировать",
     "nodeview.button.undelegateall": "Разделегировать все",
     "nodeview.button.moreinfo": "Больше информации",
     "nodeview.button.undelegate": "Разделегировать",
+    "nodeview.button.showallnodes": "Показать все ноды",
+    
+    // SupportView
+    "supportview.title": "#MetaWallet поддержка",
+    "supportview.software.info": "Информация о программном обеспечении",
+    "supportview.software.appversion": "Версия приложения::",
+    "supportview.software.uiversion": "Версия интерфейса:",
+    "supportview.sendlogs": "Отправить логи в службу поддержки",
+    "supportview.hint": "Ваш запрос был успешно отправлен в службу поддержки.<br>Запросы обрабатываются в среднем в течение 24 часов.<br><br>Напишите нам, если у Вас остались вопросы. Мы с удовольствием на них ответим. ",
+    "supportview.disclaimer.title": "Публичная информация",
+    "supportview.disclaimer.subtitle": "Это первый публичный релиз #MetaGate.",
+    "supportview.disclaimer.text": "Мы понимаем, что данное приложение не идеально и мы продалжаем работать над его улучшением, чтобы сделать его лучшим браузером для децентрализованных приложений, разработанных на платформе #MetaHash, и мы планируем сделать его лучшим криптовалютным кошельком для монет #MetaHash, токенов и других валют.",
+    "supportview.linkmetagete.title": "Посетите #MetaGate ",
+    "supportview.linkmetagete.text": "Страница загрузки",
+    "supportview.linkgithub.title": "Все версии и исходный код ",
+    "supportview.linkgithub.text": "на GitHub",
+    "supportview.linkmetahash.title": "#MetaGate это проект ",
+    "supportview.linkmetahash.text": "metahash.org",
 };
 
 /**
