@@ -153,6 +153,7 @@ window.appLang = {
     "walletsview.tab.wallets": "Кошельки",
     "walletsview.tab.latesttransactions": "История операций",
     "walletsview.button.importpk": "Импортировать ключ",
+    "walletsview.button.editwallet": "Редактировать кошелек",
     "walletsview.button.transfer": "Перевод",
     "walletsview.button.forging": "Форжинг",
     "walletsview.button.copyaddress": "Копировать&nbsp;адрес",
@@ -161,7 +162,6 @@ window.appLang = {
     "walletsview.button.forginginfo": "Форжинг",
     "walletsview.button.transactions": "Операции",
     "walletsview.button.delegations": "Делегирование",
-    "walletsview.button.walletforging": "Форжинг кошельком",
 
     // WalletView
 
@@ -175,6 +175,14 @@ window.appLang = {
     "createwalletview.button.copy": "Копировать",
     "createwalletview.button.scanqr": "Отсканировать QR-код",
     "createwalletview.button.openfileqr": "Открыть файл с QR-кодом",
+
+    // EditWalletView
+
+    "editwalletview.title": "Редактирование кошелька",
+    "editwalletview.tip": "Вы можете переименовать или удалить кошелек.",
+    "editwalletview.walletname": "Наименование кошелька",
+    "editwalletview.button.savechanges": "Сохранить",
+    "editwalletview.button.deletewallet": "Удалить кошелек",
 
     // TransferView
 
@@ -204,28 +212,70 @@ window.appLang = {
 
     "appsview.action.get": "Загрузить приложение",
     "appsview.action.open": "Открыть приложение",
+    "appsview.title": "#MetaApps",
+    "appsview.subtitle": "Приложения, основанные на технологии блокчейн",
+    "appsview.search.dapps": "Поиск приложений",
 
     // SettingsView
 
     "settings.title": "Настройки",
 
-    "settings.locale.en": "English",
-    "settings.locale.ru": "Русский",
+    "settings.menu.locale": "Язык",
+    "settings.menu.wallets": "Кошельки",
+    "settings.menu.security": "Безопасность",
+    "settings.menu.password": "Пароль",
+    "settings.menu.passcode": "Код-пароль",
+    "settings.menu.account": "Настройки учетной записи",
+    "settings.menu.deleteaccount": "Удалить учетную запись",
+    "settings.menu.system": "Системные",
+    "settings.menu.cacheclear": "Очистить кэш",
+    "settings.menu.logout": "Выход",
 
     "settings.cache.cleaned": "Кеш очищен",
 
+    // LocaleSettingsView
+
+    "settings.locale.title": "Языковые настройки ",
+    "settings.locale.language": "Язык",
+    "settings.locale.en": "English",
+    "settings.locale.ru": "Русский",
+
+    // WalletsSettingsView
+    "settings.wallets.title": "Кошельки",
+    "settings.wallets.display": "Настройки отображения",
+    "settings.wallets.display.all": "Отображать все кошельки",
+    "settings.wallets.display.onlydevice": "Отображать кошельки расположенные на устройстве",
+    "settings.wallets.storepkinicloud": "Хранить закрытые ключи в iCloud",
+    "settings.wallets.display.hint": "Если вы выберете отображение всех кошельков, кошельки, которые отсутствуют на вашем устройстве, будут отображаться серым цветом. Вам будет не доступна возможность просмотра баланса и выполнения операций для кошельков, отсутствующих на устройстве.",
+    "settings.wallets.icloud.hint": "Если ваше устройство будет потеряно или повреждено, то при переходе на новое устройство вы сможте восстановить кошельки из iCloud. Если вы не хотите хранить закрытые ключи в iCloud, то обязательно храниете резервную копию ваших закрытых ключей в другом месте.<br><b>При утере восстановить их будет невозможно.</b>",
+
     // PasswordSettingsView
 
+    "settings.password.title": "Пароль",
+    "settings.password.change": "Изменить пароль",
+    "settings.password.change.button": "Изменить пароль",
     "settings.password.changed": "Пароль изменен",
+    "settings.password.oldpassword": "Текущий пароль",
+    "settings.password.newpassword": "Пароль",
+    "settings.password.repeatnewpassword": "Повторите  пароль",
+    "settings.password.tupeoldpassword": "Введите текущий пароль",
+    "settings.password.tupenewpassword": "Введите новый пароль",
+    "settings.password.tupenewpasswordagain": "Введите новый пароль еще раз",
     "settings.password.error.emptyoldpassword": "Введите текущий пароль",
     "settings.password.error.emptynewpassword": "Введите новый пароль",
     "settings.password.error.wrongpassword": "Неверный текущий пароль",
+    "settings.password.hint": "Надежно храните свой пароль. Если вы его потеряете, то вы не сможете управлять своими средствами.",
 
     // PasscodeSettingsView
 
+    "settings.passcode.title": "Код-пароль",
+    "settings.passcode.change.button": "Изменить код-пароль",
     "settings.passcode.turnon": "Включить код-пароль",
     "settings.passcode.turnoff": "Отключить код-пароль",
     "settings.passcode.error.donotmatch": "Код-пароли не совпадают",
+    "settings.passcode.options": "Дополнительные настройки",
+    "settings.passcode.biometricsID": "Разблокировка по Face ID или Touch ID",
+    "settings.passcode.hint": "Используйте код-пароль, чтобы свести к минимуму риск несанкционированного доступа к вашим данным",
 
     // QrCodeAlertView
 
@@ -259,6 +309,22 @@ window.appLang = {
     "walletimportview.title.key.enc": "Ключевой файл зашифрован",
     "walletimportview.title.key.open": "Ключевой файл открыт",
     "walletimportview.address.unknown": "Неизвестный адрес",
+
+    // MetaPayView
+
+    "metapaview.amount": "Количество:",
+    "metapaview.wallet": "Кошелек:",
+    "metapaview.toaddress": "Получатель:",
+    "metapaview.data": "Информация:",
+    "metapaview.password": "Пароль:",
+    "metapaview.maxfee": "Максимальная комиссия:",
+    "metapaview.button.signandsend": "Подписать и отправить",
+    "metapaview.button.continue": "Далее",
+
+
+    // MetaPaySelectWalletAlertView
+
+    "selectwalletalertview.title": "Выбор кошелька",
 
     // MetaPayAlertView
 
@@ -299,6 +365,20 @@ window.appLang = {
 
     // NodeView
     "nodeview.error.notenoghfunds": "Недостаточно средств для делегирования",
+    "nodeview.filter.recommended": "Рекомендуемые",
+    "nodeview.filter.allnodes": "Все ноды",
+    "nodeview.sort.balanceup": "Баланс",
+    "nodeview.title": "Ноды",
+    "nodeview.trust": "Уровень доверия",
+    "nodeview.roi": "ROI",
+    "nodeview.geo": "Местоположение",
+    "nodeview.avgrps": "Avg RPS",
+    "nodeview.lastcheck": "Последняя проверка",
+    "nodeview.search.node": "Поиск сервера",
+    "nodeview.button.delegate": "Делегировать",
+    "nodeview.button.undelegateall": "Разделегировать все",
+    "nodeview.button.moreinfo": "Больше информации",
+    "nodeview.button.undelegate": "Разделегировать",
 };
 
 /**

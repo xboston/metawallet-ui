@@ -153,6 +153,7 @@ window.appLang = {
     "walletsview.tab.wallets": "Wallets",
     "walletsview.tab.latesttransactions": "Latest Transactions",
     "walletsview.button.importpk": "Import PK",
+    "walletsview.button.editwallet": "Edit Wallet",
     "walletsview.button.transfer": "Transfer",
     "walletsview.button.forging": "Forging",
     "walletsview.button.copyaddress": "Copy Address",
@@ -161,7 +162,6 @@ window.appLang = {
     "walletsview.button.forginginfo": "Forging Info",
     "walletsview.button.transactions": "Transactions",
     "walletsview.button.delegations": "Delegations",
-    "walletsview.button.walletforging": "Wallet Forging",
     
 
     // WalletView
@@ -176,6 +176,14 @@ window.appLang = {
     "createwalletview.button.copy": "Copy",
     "createwalletview.button.scanqr": "Scan Qr code",
     "createwalletview.button.openfileqr": "Open file with qr code",
+
+    // EditWalletView
+
+    "editwalletview.title": "Edit Wallet",
+    "editwalletview.tip": "You can rename or delete wallet.",
+    "editwalletview.walletname": "Wallet name",
+    "editwalletview.button.savechanges": "Save changes",
+    "editwalletview.button.deletewallet": "Delete wallet",
 
     // TransferView
 
@@ -205,28 +213,70 @@ window.appLang = {
 
     "appsview.action.get": "Get App",
     "appsview.action.open": "Open App",
+    "appsview.title": "#MetaApps",
+    "appsview.subtitle": "Collection of Apps, based on<br>blockchain technology",
+    "appsview.search.dapps": "Search DApps",
 
     // SettingsView
-
+    
     "settings.title": "Settings",
 
+    "settings.menu.locale": "Locale",
+    "settings.menu.wallets": "Wallets settings",
+    "settings.menu.security": "Security",
+    "settings.menu.password": "Account password",
+    "settings.menu.passcode": "Passcode",
+    "settings.menu.account": "Account settings",
+    "settings.menu.deleteaccount": "Delete Account",
+    "settings.menu.system": "System",
+    "settings.menu.cacheclear": "Clear cache",
+    "settings.menu.logout": "Выход",
+    
+    "settings.cache.cleaned": "Cache cleaned",
+    
+    // LocaleSettingsView
+    
+    "settings.locale.title": "Locale Settings",
+    "settings.locale.language": "Language",
     "settings.locale.en": "English",
     "settings.locale.ru": "Русский",
-
-    "settings.cache.cleaned": "Cache cleaned",
+    
+    // WalletsSettingsView
+    "settings.wallets.title": "Wallets settings",    
+    "settings.wallets.display": "Display settings",
+    "settings.wallets.display.all": "Display all wallets",
+    "settings.wallets.display.onlydevice": "Show wallets on the device only",
+    "settings.wallets.storepkinicloud": "Store private keys in iCloud",
+    "settings.wallets.display.hint": "You can choose one of the display’s options to see all wallets even some of them are not on your current device or see only the wallets located on your device. If you select to display all wallets, the wallets not located on your device will be displayed as grey. You will not be allowed to perform transactions and check status and balance of such a wallet.",
+    "settings.wallets.icloud.hint": "If  your device is lost or damaged you can restore wallets from iCloud to your new device. If turned off, please make sure you have secure backup of your private keys and passwords elswhere. They can not be restored or reset.<br><b>If lost, they are gone.</b>",
 
     // PasswordSettingsView
 
+    "settings.password.title": "Account password",
+    "settings.password.change": "Change password",
+    "settings.password.change.button": "Change password",
+    "settings.password.oldpassword": "Current password",
+    "settings.password.newpassword": "Password",
+    "settings.password.repeatnewpassword": "Repeat password",
+    "settings.password.tupeoldpassword": "Type your current password",
+    "settings.password.tupenewpassword": "Type new password",
+    "settings.password.tupenewpasswordagain": "Type new password again",
     "settings.password.changed": "Password changed",
     "settings.password.error.emptyoldpassword": "Enter your current password",
     "settings.password.error.emptynewpassword": "Enter your new password",
     "settings.password.error.wrongpassword": "Wrong current password",
+    "settings.password.hint": "Please keep the key password safely. If you lose it, you will not be able to manage your money. Make sure  you will not forget it.",
 
     // PasscodeSettingsView
-
+    
+    "settings.passcode.title": "Passcode Settings",
+    "settings.passcode.change.button": "Change passcode",
     "settings.passcode.turnon": "Turn on passcode",
     "settings.passcode.turnoff": "Turn off passcode",
     "settings.passcode.error.donotmatch": "Passcodes do not match",
+    "settings.passcode.options": "Options",
+    "settings.passcode.biometricsID": "Face ID / Touch ID",
+     "settings.passcode.hint": "Passcode is needed if you want to protect your account from unauthorized access by others.",
 
     // QrCodeAlertView
 
@@ -261,6 +311,21 @@ window.appLang = {
     "walletimportview.title.key.open": "Key file is open",
     "walletimportview.address.unknown": "Address unknown",
 
+   // MetaPayView
+
+    "metapaview.amount": "Amount:",
+    "metapaview.wallet": "Wallet:",
+    "metapaview.toaddress": "To Address:",
+    "metapaview.data": "Data:",
+    "metapaview.password": "Password:",
+    "metapaview.maxfee": "Max fee:",
+    "metapaview.button.signandsend": "Sign & Send:",
+    "metapaview.button.continue": "Continue",
+    
+    // MetaPaySelectWalletAlertView
+
+    "selectwalletalertview.title": "Select wallet",
+    
     // MetaPayAlertView
 
     "metapayalertview.error.nowallets": "No suitable wallets found",
@@ -300,6 +365,21 @@ window.appLang = {
 
     // NodeView
     "nodeview.error.notenoghfunds": "Not enough funds for delegation",
+    "nodeview.filter.recommended": "Recommended",
+    "nodeview.filter.allnodes": "All nodes",
+    "nodeview.sort.balanceup": "Balance up",
+    "nodeview.title": "Nodes",
+    "nodeview.trust": "Node trust",
+    "nodeview.roi": "ROI",
+    "nodeview.geo": "Geo",
+    "nodeview.avgrps": "Avg RPS",
+    "nodeview.lastcheck": "Last check",
+    "nodeview.search.node": "Search node",
+    "nodeview.button.delegate": "Delegate",
+    "nodeview.button.undelegateall": "Undelegate all",
+    "nodeview.button.moreinfo": "More Info",
+    "nodeview.button.undelegate": "Undelegate",
+
 };
 
 /**
