@@ -390,8 +390,8 @@ window.appLang = {
     
     // SupportView
     "supportview.title": "#MetaWallet поддержка",
-    "supportview.software.info": "Информация о программном обеспечении",
-    "supportview.software.appversion": "Версия приложения::",
+    "supportview.software.info": "Информация о приложении",
+    "supportview.software.appversion": "Версия приложения:",
     "supportview.software.uiversion": "Версия интерфейса:",
     "supportview.sendlogs": "Отправить логи в службу поддержки",
     "supportview.hint": "Ваш запрос был успешно отправлен в службу поддержки.<br>Запросы обрабатываются в среднем в течение 24 часов.<br><br>Напишите нам, если у Вас остались вопросы. Мы с удовольствием на них ответим. ",
@@ -404,6 +404,33 @@ window.appLang = {
     "supportview.linkgithub.text": "на GitHub",
     "supportview.linkmetahash.title": "#MetaGate это проект ",
     "supportview.linkmetahash.text": "metahash.org",
+    "supportview.releasenote.title": "Обратите внимание, что это один из первых релизов приложения",
+    "supportview.releasenote.text": "Это один из первых релизов приложения и в нем могут возникать ошибки. Приложение находится на стадии тестирования и ему еще далеко до перехода в промышленную эксплуатацию, поэтому будьте осторожны при его использовании.",
+    "supportview.releasenote.title2": "Нам нужна Ваша помощь!",
+    "supportview.releasenote.text2.link": "Если у вас есть идеи о том, как сделать приложение #MetaGate лучше, то пишите на E-mail:",
+    "supportview.releasenote.text2.link2": "Если что-то не работает, пожалуйста, напишите:",
+    "supportview.releasenote.title3": "Идея #MetaGate",
+    "supportview.releasenote.text3": "MetaGate это не кошелек, это каталог децентрализованных приложений и браузер, который может загружать пользовательский интерфейс приложений или напрямую обращаться к децентрализованным приложениям через mh: // (протокол #MetaHash), в том числе с кошельком, являющимся децентрализованным приложением с открытым исходным кодом. На текущем момент в MetaGate обеспечена возможность работы приложений, пользовательский интерфейс которых разработан с использованием HTML и JS.<br>",
+     "supportview.releasenote.big": " #MetaHash находится в стадии разработки и нам потребуется проделать еще много работы, чтобы сделать из него идеальную платформу для создания  работающих в в режиме реального времени децентрализованных приложений. Мы считаем, что #MetaHash позволит создавать децентрализованные приложения, разработка которых была не возможна до его запуска.",
+    "supportview.discussion.title": "Присоединяйтесь",
+    
+    
+    "supportview.discussion.linkwebsite": "Наш веб-сайт: ",
+    "supportview.discussion.linktelegram": "Telegram: ",
+    "supportview.discussion.linktwitter": "Twitter: ",
+    "supportview.share.title": "Поделиться ссылкой: ",
+    "supportview.faq.aboutmetahash": "Что такое #MetaHash?",
+    "supportview.faq.terms": "Условия использования",
+    "supportview.faq.privacypolicy": "Политика конфиденциальности",
+    "supportview.faq.antispampolicy": "Анти-Спам политика",
+    "supportview.faq.riskda": "Соглашение о раскрытии рисков",
+    
+    "supportview.contact.title": "Контакты",
+    "supportview.contact.feedback": "Обратная связь ",
+    "supportview.contact.support": "Служба поддержки  ",
+    "supportview.contact.pressenquiries": "Электронный адрес для пресс-запросов ",
+    "supportview.contact.pressoffice": "Телефон пресс-службы ",
+
 };
 
 /**
