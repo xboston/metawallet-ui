@@ -158,7 +158,7 @@ window.appLang = {
     // WalletsView
 
     "walletsview.tab.wallets": "Wallets",
-    "walletsview.tab.wallets": "Wallet",
+    "walletsview.tab.wallet": "Wallet",
     "walletsview.tab.latesttransactions": "Latest Transactions",
     "walletsview.button.importpk": "Import PK",
     "walletsview.button.editwallet": "Edit Wallet",
@@ -238,7 +238,7 @@ window.appLang = {
     "settings.menu.deleteaccount": "Delete Account",
     "settings.menu.system": "System",
     "settings.menu.cacheclear": "Clear cache",
-    "settings.menu.logout": "Выход",
+    "settings.menu.logout": "Log out",
     
     "settings.cache.cleaned": "Cache cleaned",
     
