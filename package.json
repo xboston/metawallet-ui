@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "eslint": "^6.1.0",
+    "eslint": "^6.2.0",
     "postcss-cli": "^6.1.3"
   }
 }
