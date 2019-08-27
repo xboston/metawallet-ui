@@ -238,7 +238,7 @@ window.appLang = {
     "settings.menu.deleteaccount": "Delete Account",
     "settings.menu.system": "System",
     "settings.menu.cacheclear": "Clear cache",
-    "settings.menu.logout": "Выход",
+    "settings.menu.logout": "Log out",
     
     "settings.cache.cleaned": "Cache cleaned",
     
