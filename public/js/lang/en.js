@@ -170,7 +170,10 @@ window.appLang = {
     "walletsview.button.transactions": "Transactions",
     "walletsview.button.delegations": "Delegations",
     "walletsview.walletdelegations": "Wallet Delegations",
-    
+    "walletsview.notransactions.title": "There were no transactions",
+    "walletsview.notransactions.text": "You don’t have any<br>transactions to display",
+    "walletsview.nodelegations.title": "There were no delegations",
+    "walletsview.nodelegations.text": "You don’t have any<br>delegations to display",
 
     // WalletView
 
@@ -184,6 +187,11 @@ window.appLang = {
     "createwalletview.button.copy": "Copy",
     "createwalletview.button.scanqr": "Scan Qr code",
     "createwalletview.button.openfileqr": "Open file with qr code",
+    "createwalletview.alert.added": "#MHC Wallet added",
+    "createwalletview.alert.address": "Address",
+    "createwalletview.alert.password": "Password",
+    "createwalletview.alert.savepkqrcode": "Save private key qr code",
+    "createwalletview.alert.savepkfile": "Save encrypted private key file",
 
     // EditWalletView
 
@@ -322,13 +330,19 @@ window.appLang = {
    // MetaPayView
 
     "metapaview.amount": "Amount:",
+    "metapaview.placeholder.amount": "Amount",
     "metapaview.wallet": "Wallet:",
     "metapaview.toaddress": "To Address:",
+    "metapaview.placeholder.address": "Address",
     "metapaview.data": "Data:",
+    "metapaview.placeholder.data": "Data",
     "metapaview.password": "Password:",
+    "metapaview.placeholder.password": "Wallet password",
     "metapaview.maxfee": "Max fee:",
-    "metapaview.button.signandsend": "Sign & Send:",
+    "metapaview.button.signandsend": "Sign & Send",
     "metapaview.button.continue": "Continue",
+    "metapaview.transfer": "Transfer",
+    "metapaview.allavailable": "All available",
     
     // MetaPaySelectWalletAlertView
 
