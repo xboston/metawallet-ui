@@ -169,6 +169,10 @@ window.appLang = {
     "walletsview.button.transactions": "Операции",
     "walletsview.button.delegations": "Делегирование",
     "walletsview.walletdelegations": "Делегирование",
+    "walletsview.notransactions.title": "Операции отсутствуют",
+    "walletsview.notransactions.text": "Операций по текущему кошельку не было",
+    "walletsview.nodelegations.title": "Делегирования отсутствуют",
+    "walletsview.nodelegations.text": "Делегирований по текущему кошельку не было",
 
     // WalletView
 
@@ -182,6 +186,11 @@ window.appLang = {
     "createwalletview.button.copy": "Копировать",
     "createwalletview.button.scanqr": "Отсканировать QR-код",
     "createwalletview.button.openfileqr": "Открыть файл с QR-кодом",
+    "createwalletview.alert.added": "#MHC кошелек добавлен",
+    "createwalletview.alert.address": "Адрес",
+    "createwalletview.alert.password": "Пароль",
+    "createwalletview.alert.savepkqrcode": "Сохранить QR-код с закрытым ключем",
+    "createwalletview.alert.savepkfile": "Сохранить файл закрытого ключа",
 
     // EditWalletView
 
@@ -320,13 +329,19 @@ window.appLang = {
     // MetaPayView
 
     "metapaview.amount": "Количество:",
+    "metapaview.placeholder.amount": "Количество",
     "metapaview.wallet": "Кошелек:",
     "metapaview.toaddress": "Получатель:",
+    "metapaview.placeholder.address": "Получатель",
     "metapaview.data": "Информация:",
+    "metapaview.placeholder.data": "Информация",
     "metapaview.password": "Пароль:",
+    "metapaview.placeholder.password": "Пароль от кошелька",
     "metapaview.maxfee": "Максимальная комиссия:",
     "metapaview.button.signandsend": "Подписать и отправить",
     "metapaview.button.continue": "Далее",
+    "metapaview.transfer": "Перевод",
+    "metapaview.allavailable": "Все",
 
 
     // MetaPaySelectWalletAlertView
