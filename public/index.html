@@ -1706,11 +1706,10 @@
 
                 <div class="empty-block-message" data-selector="placeholder.notransactions" style="display: none;">
                     <div class="empty-block-message__title">
-                        There were no transactions
+                        <lang name="walletsview.notransactions.title"></lang>
                     </div>
                     <div class="empty-block-message__text">
-                        You don’t have any<br>
-                        transactions to display
+                        <lang name="walletsview.notransactions.text"></lang>
                     </div>
                 </div>
 
@@ -1987,11 +1986,10 @@
 
                 <div class="empty-block-message" data-selector="placeholder.notransactions" style="display: none;">
                     <div class="empty-block-message__title">
-                        There were no transactions
+                        <lang name="walletsview.notransactions.title"></lang>
                     </div>
                     <div class="empty-block-message__text">
-                        You don’t have any<br>
-                        transactions to display
+                        <lang name="walletsview.notransactions.text"></lang>
                     </div>
                 </div>
 
@@ -2028,7 +2026,7 @@
                 </button>
             </div>
             <div class="page-nav-center">
-                Transfer
+                <lang name="metapaview.transfer"></lang >
             </div>
             <div class="page-nav-right">
                 <button>
@@ -2083,9 +2081,9 @@
                         <label class="form-label">
                             <lang name="metapaview.amount"></lang >
                         </label>
-                        <input class="form-control form-control--xs" type="number" step="0.000001" name="value" value="" placeholder="Amount" data-selector="transfer.value" autocomplete="off">
+                        <input class="form-control form-control--xs" type="number" step="0.000001" name="value" value="" langplaceholder="metapaview.placeholder.amount" data-selector="transfer.value" autocomplete="off">
                         <button class="btn btn-link btn--empty" type="button" data-selector="transfer.allavailable">
-                            All available
+                            <lang name="metapaview.allavailable"></lang >
                         </button>
                     </div>
 
@@ -2095,7 +2093,7 @@
                         </label>
                         <div class="form-control-wrapper form-control-wrapper--icon-right">
                             <!-- to show dropdown: .show-dropdown -->
-                            <input class="form-control form-control--xs" type="text" name="to" value="" placeholder="Address" data-selector="transfer.to">
+                            <input class="form-control form-control--xs" type="text" name="to" value="" langplaceholder="metapaview.placeholder.address" data-selector="transfer.to">
                             <button class="btn btn--icon btn--empty" data-selector="actions.scanqr" style="pointer-events: auto;">
                                 <svg class="icon icon-qr-code-inline" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0 0V7.30433H7.30411V0H0ZM6.26067 6.26086H1.04343V1.04347H6.26067V6.26086Z" fill="currentColor"/>
@@ -2174,7 +2172,7 @@
                             <lang name="metapaview.data"></lang>
                         </label>
                         <!-- для выделения ошибки: .form-control--error -->
-                        <input class="form-control form-control--xs" type="text" name="data" value="" placeholder="Data" data-selector="transfer.data">
+                        <input class="form-control form-control--xs" type="text" name="data" value="" langplaceholder="metapaview.placeholder.data" data-selector="transfer.data">
                     </div>
 
                     <div class="form-group form-group--xs">
@@ -2183,7 +2181,7 @@
                         </label>
                         <!-- для выделения ошибки: .form-control--error -->
                         <!-- заменять вводимые символы в поле пароля на вот этот знак: ● -->
-                        <input class="form-control form-control--xs form-control--password" name="password" type="password" placeholder="Wallet password" value="" autocomplete="off" data-selector="transfer.password">
+                        <input class="form-control form-control--xs form-control--password" name="password" type="password" langplaceholder="metapaview.placeholder.password" value="" autocomplete="off" data-selector="transfer.password">
                     </div>
 
 
@@ -2861,11 +2859,10 @@
             <!--empty message-->
             <div class="empty-block-message" data-selector="empty-block">
                 <div class="empty-block-message__title">
-                    There were no delegations
+                    <lang name="walletsview.nodelegations.title"></lang>
                 </div>
                 <div class="empty-block-message__text">
-                    You don’t have any<br>
-                    delegations to display
+                    <lang name="walletsview.nodelegations.text"></lang>
                 </div>
             </div>
             <!--/empty message-->
@@ -4582,7 +4579,7 @@
                     </button>
                 </div>
                 <div class="page-nav-center">
-                    #MHC Wallet added
+                    <lang name="createwalletview.alert.added"></lang>
                 </div>
                 <div class="page-nav-right">
                     <!--..-->
@@ -4608,7 +4605,7 @@
                 <div class="alert-params">
                     <div class="alert-param">
                         <div class="alert-param-label">
-                            Address
+                            <lang name="createwalletview.alert.address"></lang>
                         </div>
                         <div class="alert-param-value">
                             <div class="alert-param-value-data" data-selector="address">
@@ -4626,7 +4623,7 @@
                     </div>
                     <div class="alert-param">
                         <div class="alert-param-label">
-                            Password
+                            <lang name="createwalletview.alert.password"></lang>
                         </div>
                         <div class="alert-param-value">
                             <div class="alert-param-value-data" data-selector="password">
@@ -4660,13 +4657,13 @@
                             <path d="M13.9135 11.8262V10.7827H11.8267V13.9131H13.9135V12.8697H12.8701V11.8262H13.9135Z" fill="currentColor"/>
                             <path d="M12.8701 14.9565H11.8267V16H12.8701V14.9565Z" fill="currentColor"/>
                         </svg><!--
-                     -->save private key qr code
+                     --><lang name="createwalletview.alert.savepkqrcode"></lang>
                     </button>
                     <button class="btn btn-outline btn-xs btn-inline" type="button" data-selector="actions.savepk">
                         <svg class="icon icon-left icon-key-inline" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11.0473 0.981556C9.73857 -0.327185 7.65998 -0.327185 6.35124 0.981556C5.42743 1.90537 5.15798 3.25261 5.5814 4.40738L0.654371 9.3344L0 11.336L2.0016 11.9904L2.61748 11.336L4.5421 10.6816V9.3344L5.27346 8.68003L5.96632 9.3344L7.31355 7.98717L6.65918 7.3328L7.583 6.44747C8.73777 6.87089 10.085 6.60144 11.0473 5.67763C12.3176 4.36889 12.3176 2.2903 11.0473 0.981556ZM9.77707 3.06014C9.54611 3.2911 9.16119 3.2911 8.93023 3.06014C8.69928 2.82919 8.69928 2.44427 8.93023 2.21331C9.16119 1.98236 9.54611 1.98236 9.77707 2.21331C10.008 2.48276 10.008 2.82919 9.77707 3.06014Z" fill="currentColor"/>
                         </svg><!--
-                     -->save encrypted private key file
+                     --><lang name="createwalletview.alert.savepkfile"></lang>
                     </button>
                 </div>
 
