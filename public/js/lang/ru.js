@@ -12,7 +12,7 @@ window.appLang = {
     "error.connection.offline": "Автономный режим",
     "error.connection.online": "Онлайн режим",
     "error.notavailable": "Недоступно в текущей версии",
-    "error.availableonlyinmetagate": "Доступно только в настольном MetaGate",
+    "error.availableonlyinmetagate": "Доступно только в настольном #MetaGate",
     "error.unknown.domain": "Неизвестный домен",
     "error.emptyfields": "Заполните все обязательные поля",
     "error.wrongqrcode": "В отсканированном QR-коде не найдены данные",
@@ -176,9 +176,9 @@ window.appLang = {
 
     // WalletView
 
-    "createwalletview.navtitle": "Добавить #MHC кошелёк",
+    "createwalletview.navtitle": "Добавление #MHC кошелёк",
     "createwalletview.title": "Создать кошелёк",
-    "createwalletview.button.add": "Добавить кошелёк",
+    "createwalletview.button.add": "Создать кошелёк",
     "createwalletview.button.addtip": "Добавить новый или импортировать из QR-кода",
     "createwalletview.placeholder.walletname": "Название кошелька",
     "createwalletview.placeholder.walletpassword": "Пароль для кошелька",
@@ -196,7 +196,7 @@ window.appLang = {
 
     "editwalletview.title": "Редактирование кошелька",
     "editwalletview.tip": "Вы можете переименовать или удалить кошелек",
-    "editwalletview.walletname": "Наименование кошелька",
+    "editwalletview.walletname": "Название кошелька",
     "editwalletview.button.savechanges": "Сохранить",
     "editwalletview.button.deletewallet": "Удалить кошелек",
 
@@ -251,7 +251,7 @@ window.appLang = {
 
     // LocaleSettingsView
 
-    "settings.locale.title": "Языковые настройки ",
+    "settings.locale.title": "Языковые настройки",
     "settings.locale.language": "Язык",
     "settings.locale.en": "English",
     "settings.locale.ru": "Русский",
@@ -328,8 +328,8 @@ window.appLang = {
 
     // MetaPayView
 
-    "metapaview.amount": "Количество:",
-    "metapaview.placeholder.amount": "Количество",
+    "metapaview.amount": "Сумма:",
+    "metapaview.placeholder.amount": "Сумма",
     "metapaview.wallet": "Кошелек:",
     "metapaview.toaddress": "Получатель:",
     "metapaview.placeholder.address": "Получатель",
@@ -402,49 +402,49 @@ window.appLang = {
     "nodeview.button.moreinfo": "Больше информации",
     "nodeview.button.undelegate": "Разделегировать",
     "nodeview.button.showallnodes": "Показать все ноды",
-    
+
     // SupportView
     "supportview.title": "#MetaWallet поддержка",
     "supportview.software.info": "Информация о приложении",
     "supportview.software.appversion": "Версия приложения:",
     "supportview.software.uiversion": "Версия интерфейса:",
     "supportview.sendlogs": "Отправить логи в службу поддержки",
-    "supportview.hint": "Ваш запрос был успешно отправлен в службу поддержки.<br>Запросы обрабатываются в среднем в течение 24 часов.<br><br>Напишите нам, если у Вас остались вопросы. Мы с удовольствием на них ответим. ",
+    "supportview.hint": "Ваш запрос будет отправлен в службу поддержки.<br>Запросы обрабатываются в среднем в течение 24 часов.<br><br>Напишите нам, если у Вас остались вопросы. Мы с удовольствием на них ответим.",
     "supportview.disclaimer.title": "Публичная информация",
-    "supportview.disclaimer.subtitle": "Это первый публичный релиз #MetaGate.",
+    "supportview.disclaimer.subtitle": "Это первый публичный релиз #MetaWallet",
     "supportview.disclaimer.text": "Мы понимаем, что данное приложение не идеально и мы продалжаем работать над его улучшением, чтобы сделать его лучшим браузером для децентрализованных приложений, разработанных на платформе #MetaHash, и мы планируем сделать его лучшим криптовалютным кошельком для монет #MetaHash, токенов и других валют.",
-    "supportview.linkmetagete.title": "Посетите #MetaGate ",
+    "supportview.linkmetagete.title": "Посетите #MetaGate",
     "supportview.linkmetagete.text": "Страница загрузки",
-    "supportview.linkgithub.title": "Все версии и исходный код ",
+    "supportview.linkgithub.title": "Все версии и исходный код",
     "supportview.linkgithub.text": "на GitHub",
-    "supportview.linkmetahash.title": "#MetaGate это проект ",
+    "supportview.linkmetahash.title": "#MetaWallet это проект",
     "supportview.linkmetahash.text": "metahash.org",
     "supportview.releasenote.title": "Обратите внимание, что это один из первых релизов приложения",
     "supportview.releasenote.text": "Это один из первых релизов приложения и в нем могут возникать ошибки. Приложение находится на стадии тестирования и ему еще далеко до перехода в промышленную эксплуатацию, поэтому будьте осторожны при его использовании.",
     "supportview.releasenote.title2": "Нам нужна Ваша помощь!",
-    "supportview.releasenote.text2.link": "Если у вас есть идеи о том, как сделать приложение #MetaGate лучше, то пишите на E-mail:",
-    "supportview.releasenote.text2.link2": "Если что-то не работает, пожалуйста, напишите:",
+    "supportview.releasenote.text2.link": "Если у вас есть идеи о том, как сделать приложение #MetaGate лучше, то пишите на e-mail: ",
+    "supportview.releasenote.text2.link2": "Если что-то не работает, пожалуйста, напишите: ",
     "supportview.releasenote.title3": "Идея #MetaGate",
     "supportview.releasenote.text3": "MetaGate это не кошелек, это каталог децентрализованных приложений и браузер, который может загружать пользовательский интерфейс приложений или напрямую обращаться к децентрализованным приложениям через mh: // (протокол #MetaHash), в том числе с кошельком, являющимся децентрализованным приложением с открытым исходным кодом. На текущем момент в MetaGate обеспечена возможность работы приложений, пользовательский интерфейс которых разработан с использованием HTML и JS.<br>",
-     "supportview.releasenote.big": " #MetaHash находится в стадии разработки и нам потребуется проделать еще много работы, чтобы сделать из него идеальную платформу для создания  работающих в в режиме реального времени децентрализованных приложений. Мы считаем, что #MetaHash позволит создавать децентрализованные приложения, разработка которых была не возможна до его запуска.",
+    "supportview.releasenote.big": " #MetaHash находится в стадии разработки и нам потребуется проделать еще много работы, чтобы сделать из него идеальную платформу для создания  работающих в в режиме реального времени децентрализованных приложений. Мы считаем, что #MetaHash позволит создавать децентрализованные приложения, разработка которых была не возможна до его запуска.",
     "supportview.discussion.title": "Присоединяйтесь",
-    
-    
-    "supportview.discussion.linkwebsite": "Наш веб-сайт: ",
-    "supportview.discussion.linktelegram": "Telegram: ",
-    "supportview.discussion.linktwitter": "Twitter: ",
-    "supportview.share.title": "Поделиться ссылкой: ",
+
+
+    "supportview.discussion.linkwebsite": "Наш веб-сайт:",
+    "supportview.discussion.linktelegram": "Telegram:",
+    "supportview.discussion.linktwitter": "Twitter:",
+    "supportview.share.title": "Мы в соцсетях:",
     "supportview.faq.aboutmetahash": "Что такое #MetaHash?",
     "supportview.faq.terms": "Условия использования",
     "supportview.faq.privacypolicy": "Политика конфиденциальности",
     "supportview.faq.antispampolicy": "Анти-Спам политика",
     "supportview.faq.riskda": "Соглашение о раскрытии рисков",
-    
+
     "supportview.contact.title": "Контакты",
-    "supportview.contact.feedback": "Обратная связь ",
-    "supportview.contact.support": "Служба поддержки  ",
-    "supportview.contact.pressenquiries": "Электронный адрес для пресс-запросов ",
-    "supportview.contact.pressoffice": "Телефон пресс-службы ",
+    "supportview.contact.feedback": "Обратная связь",
+    "supportview.contact.support": "Служба поддержки ",
+    "supportview.contact.pressenquiries": "Электронный адрес для пресс-запросов",
+    "supportview.contact.pressoffice": "Телефон пресс-службы",
 
 };
 

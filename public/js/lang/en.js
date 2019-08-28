@@ -12,7 +12,7 @@ window.appLang = {
     "error.connection.offline": "Offline mode",
     "error.connection.online": "Online mode",
     "error.notavailable": "Not available in current version",
-    "error.availableonlyinmetagate": "Available only in desktop MetaGate",
+    "error.availableonlyinmetagate": "Available only in desktop #MetaGate",
     "error.unknown.domain": "Unknown domain",
     "error.emptyfields": "Fill in all required fields",
     "error.wrongqrcode": "No data found in scanned QR code",
@@ -20,7 +20,7 @@ window.appLang = {
     "error.wrongpasscode": "Wrong passcode",
     "error.wrongfaceid": "Authentication error",
     "error.passwordsdonotmatch": "Passwords do not match",
-    "error.passwordshort": "New password too simple. Minimum length: ",
+    "error.passwordshort": "New password too simple. Minimum length:",
     "error.notenoughfunds": "Not enough funds",
     "error.pknotfound": "Private key not found on the device",
     "error.wrongname": "Wrong name",
@@ -97,7 +97,7 @@ window.appLang = {
     "loaderview.message.connected": "Connected!",
     "loaderview.message.connecting": "Connecting...",
 
-    "loaderview.tips.header": "TIP ",
+    "loaderview.tips.header": "TIP",
     "loaderview.tips.tip1": "Remember to keep the password yourself!",
     "loaderview.tips.tip2": "We never save your password anywhere.",
     "loaderview.tips.tip3": "Please keep your keys safely. Keep in mind that if you lose them, your keys cannot be recovered.",
@@ -234,7 +234,7 @@ window.appLang = {
     "appsview.search.dapps": "Search DApps",
 
     // SettingsView
-    
+
     "settings.title": "Settings",
 
     "settings.menu.locale": "Locale",
@@ -247,18 +247,18 @@ window.appLang = {
     "settings.menu.system": "System",
     "settings.menu.cacheclear": "Clear cache",
     "settings.menu.logout": "Log out",
-    
+
     "settings.cache.cleaned": "Cache cleaned",
-    
+
     // LocaleSettingsView
-    
+
     "settings.locale.title": "Locale Settings",
     "settings.locale.language": "Language",
     "settings.locale.en": "English",
     "settings.locale.ru": "Русский",
-    
+
     // WalletsSettingsView
-    "settings.wallets.title": "Wallets settings",    
+    "settings.wallets.title": "Wallets settings",
     "settings.wallets.display": "Display settings",
     "settings.wallets.display.all": "Display all wallets",
     "settings.wallets.display.onlydevice": "Show wallets on the device only",
@@ -284,7 +284,7 @@ window.appLang = {
     "settings.password.hint": "Please keep the key password safely. If you lose it, you will not be able to manage your money. Make sure  you will not forget it.",
 
     // PasscodeSettingsView
-    
+
     "settings.passcode.title": "Passcode Settings",
     "settings.passcode.change.button": "Change passcode",
     "settings.passcode.turnon": "Turn on passcode",
@@ -292,7 +292,7 @@ window.appLang = {
     "settings.passcode.error.donotmatch": "Passcodes do not match",
     "settings.passcode.options": "Options",
     "settings.passcode.biometricsID": "Face ID / Touch ID",
-     "settings.passcode.hint": "Passcode is needed if you want to protect your account from unauthorized access by others.",
+    "settings.passcode.hint": "Passcode is needed if you want to protect your account from unauthorized access by others.",
 
     // QrCodeAlertView
 
@@ -327,7 +327,7 @@ window.appLang = {
     "walletimportview.title.key.open": "Key file is open",
     "walletimportview.address.unknown": "Address unknown",
 
-   // MetaPayView
+    // MetaPayView
 
     "metapaview.amount": "Amount:",
     "metapaview.placeholder.amount": "Amount",
@@ -343,11 +343,11 @@ window.appLang = {
     "metapaview.button.continue": "Continue",
     "metapaview.transfer": "Transfer",
     "metapaview.allavailable": "All available",
-    
+
     // MetaPaySelectWalletAlertView
 
     "selectwalletalertview.title": "Select wallet",
-    
+
     // MetaPayAlertView
 
     "metapayalertview.error.nowallets": "No suitable wallets found",
@@ -402,24 +402,24 @@ window.appLang = {
     "nodeview.button.moreinfo": "More Info",
     "nodeview.button.undelegate": "Undelegate",
     "nodeview.button.showallnodes": "Show All Nodes",
-    
-   // SupportView
+
+    // SupportView
     "supportview.title": "#MetaWallet Support",
     "supportview.software.info": "Software information",
     "supportview.software.appversion": "App version:",
     "supportview.software.uiversion": "UI version:",
     "supportview.sendlogs": "send logs to support team",
-    "supportview.hint": "Your request has been successfully sent to support team.<br>Requests are processed within 24 hours on the average.<br><br>If you have any questions, please don’t hesitate to contact us: ",
+    "supportview.hint": "Your request will been sent to support team.<br>Requests are processed within 24 hours on the average.<br><br>If you have any questions, please don’t hesitate to contact us:",
     "supportview.disclaimer.title": "Public information",
-    "supportview.disclaimer.subtitle": "This is the first public release of #MetaGate.",
+    "supportview.disclaimer.subtitle": "This is the first public release of #MetaWallet",
     "supportview.disclaimer.text": "We know it’s not perfect, but we focus on making it the best browser for decentralized applications built on #MetaHash platform and other chains and we want to make it the best cryptocurrency wallet for #MetaHash Coins, Tokens and other currencies.",
-    "supportview.linkmetagete.title": "Visit #MetaGate ",
+    "supportview.linkmetagete.title": "Visit #MetaGate",
     "supportview.linkmetagete.text": "download page",
-    "supportview.linkgithub.title": "All versions and source code ",
+    "supportview.linkgithub.title": "All versions and source code",
     "supportview.linkgithub.text": "on GitHub",
-    "supportview.linkmetahash.title": "#MetaGate is a project by ",
+    "supportview.linkmetahash.title": "#MetaWallet is a project by",
     "supportview.linkmetahash.text": "metahash.org",
-    "supportview.releasenote.title": "Please keep in mind this is the first release ",
+    "supportview.releasenote.title": "Please keep in mind this is the first release",
     "supportview.releasenote.text": "Bugs happen, but early launches make Apps better. So please understand it’s the first release and be careful with your funds. #MetaGate has a long way ahead to pass public security bounties and public tests.",
     "supportview.releasenote.title2": "We need your Help!",
     "supportview.releasenote.text2.link": "If you have ideas on how to make #MetaGate better please e-mail at: ",
@@ -428,20 +428,20 @@ window.appLang = {
     "supportview.releasenote.text3": "It’s not a Wallet, it’s a browser, that is able to download user interface or directly access decentralized Apps via mh:// (#MetaHash protocol). The Wallet itself will be a decentralized open source application. At the current stage we allow UI to be written in HTML/JS, but later it will be possible on more complex UIs to require explicit user’s “yes” to be installed<br>#MH protocol means that an App always changes IP addresses where it is hosted and you are working with a random decentralized Node. Data that needs verification is downloaded from multiple sources or #MetaHash DataChain and data that needs synchronisation is uploaded encrypted or public in DataChain.<br><br>",
     "supportview.releasenote.big": " It’s not perfect now, but we believe that this approach will allow decentrilized Applications to be born that were impossible to make before #MetaHash project started.",
     "supportview.discussion.title": "Join discussion",
-    "supportview.discussion.linkwebsite": "Our website: ",
-    "supportview.discussion.linktelegram": "Telegram: ",
-    "supportview.discussion.linktwitter": "Twitter: ",
-    "supportview.share.title": "Share this article: ",
+    "supportview.discussion.linkwebsite": "Our website:",
+    "supportview.discussion.linktelegram": "Telegram:",
+    "supportview.discussion.linktwitter": "Twitter:",
+    "supportview.share.title": "Share this article:",
     "supportview.faq.aboutmetahash": "What is #MetaHash?",
     "supportview.faq.terms": "Terms of Use",
     "supportview.faq.privacypolicy": "Privacy Policy",
     "supportview.faq.antispampolicy": "Anti-Spam Policy",
     "supportview.faq.riskda": "Risk Disclosure Agreement",
     "supportview.contact.title": "Contact Us",
-    "supportview.contact.feedback": "Feedback at ",
-    "supportview.contact.support": "Support at ",
-    "supportview.contact.pressenquiries": "Press enquiries ",
-    "supportview.contact.pressoffice": "Press office ",
+    "supportview.contact.feedback": "Feedback at",
+    "supportview.contact.support": "Support at",
+    "supportview.contact.pressenquiries": "Press enquiries",
+    "supportview.contact.pressoffice": "Press office",
 };
 
 /**
