@@ -48,7 +48,7 @@
 .currency-title {
   font-weight: 500;
   font-size: 11px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 10px;
   margin-left: 1px;
   text-align: left;
@@ -123,10 +123,10 @@
 
 .currency-stat {
   color: $blue-light;
-  font-weight: 500;
+  font-weight: 350;
   font-size: 12px;
   margin-bottom: 6px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   text-align: left;
 
   b {
@@ -190,7 +190,7 @@
 .currency-bl {
   position: absolute;
   bottom: 15px;
-  left: 18px;
+  left: 13px;
 
   .desaturated & {
     color: desaturate($blue-light, 100%);
