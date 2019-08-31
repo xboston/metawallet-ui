@@ -36,7 +36,7 @@ class NodeSubView extends View {
     update () {
         this.element.setAttribute("data-dapp-address", this.node.address);
         this.element.querySelector(".wallet-node-title").innerHTML = this.node.name;
-        this.element.querySelector(".wallet-node-type").innerHTML = this.node.type.join();
+        this.element.querySelector(".wallet-node-type").innerHTML = __("node.type." + this.node.type.join());
         const nodeStatusClass = "wallet-delegation-status--" + this.node.getNodeStatusColor();
         this.element.querySelector(".wallet-delegation-status").classList.add(nodeStatusClass);
         this.element.querySelector(".wallet-node-value").innerHTML = this.node.getDelegations();
