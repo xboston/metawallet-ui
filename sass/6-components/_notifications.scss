@@ -28,7 +28,7 @@
 
 .notification__text {
   font-size: 13px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: $black;
 
   .notification--error & {
@@ -116,7 +116,7 @@
   color: $white;
   font-size: 13px;
   text-align: center;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 46px 0 14px 0;
 
   &:before {
