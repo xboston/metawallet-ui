@@ -385,6 +385,11 @@ window.appLang = {
     "node.geo.cn": "Asia",
     "node.geo.undefined": "undefined",
 
+    "node.type.Proxy": "Proxy",
+    "node.type.InfrastructureTorrent": "Infrastructure Torrent",
+
+    "node.delegation": "delegation",
+
     // NodeView
     "nodeview.error.notenoghfunds": "Not enough funds for delegation",
     "nodeview.filter.recommended": "Recommended",
