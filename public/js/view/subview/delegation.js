@@ -33,6 +33,6 @@ class DelegationSubView extends View {
         this.element.querySelector(".wallet-delegation-value").innerHTML = this.wallet.currency.getBalance(this.delegation.value).fullSimpleString;
         const nodeStatusClass = "wallet-delegation-status--" + this.node.getNodeStatusColor();
         this.element.querySelector(".wallet-delegation-status").classList.add(nodeStatusClass);
-        this.element.querySelector(".wallet-delegation-process").innerHTML = window.pluralize(this.delegation.count, "delegation");
+        this.element.querySelector(".wallet-delegation-process").innerHTML = window.pluralize(this.delegation.count, __("node.delegation"));
     }
 }
