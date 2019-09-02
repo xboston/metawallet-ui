@@ -28,9 +28,9 @@ class DelegateAlertView extends View {
         };
     }
     onStarted () {
-        this.element.querySelector(".page-nav-center").innerHTML = "Delegation";
-        this.element.querySelector(".alert-title span").innerHTML = "Delegation Request";
-        this.element.querySelector(".alert-title__hint").innerHTML = "Please check your delegation details before proceeding";
+        this.element.querySelector(".page-nav-center").innerHTML = __("metapaview.delegation");
+        this.element.querySelector(".alert-title span").innerHTML = __("metapaview.delegationrequest");
+        this.element.querySelector(".alert-title__hint").innerHTML = __("metapaview.delegationrequestpleasecheck");
         xD(this.element.qs("metapay.date").parentElement).hide();
         xD(this.element.qs("metapay.notes").parentElement).hide();
         xD(this.element.qs("metapay.vendor").parentElement).hide();
@@ -39,8 +39,8 @@ class DelegateAlertView extends View {
         this.element.qs("metapay.to").value = BlockchainLib.hashCollapse(this.node.address);
         this.element.qs("metapay.value").removeAttribute("readonly");
         this.element.qs("metapay.order").value = escapeHtml(this.node.name);
-        this.element.qs("metapay.order.title").innerHTML = "Node:";
-        this.element.qs("metapay.to.title").innerHTML = "Address:";
+        this.element.qs("metapay.order.title").innerHTML = __("metapaview.node");
+        this.element.qs("metapay.to.title").innerHTML = __("metapaview.toaddress");
         /** @type {HTMLElement|xD} */
         this.selectWalletElement = this.element.qs("action.selectwallet");
         /** @type {HTMLElement|xD} */
