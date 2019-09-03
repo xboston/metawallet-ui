@@ -26,9 +26,9 @@ class UndelegateAlertView extends View {
         };
     }
     onStarted () {
-        this.element.querySelector(".page-nav-center").innerHTML = "Undelegation";
-        this.element.querySelector(".alert-title span").innerHTML = "Undelegation Request";
-        this.element.querySelector(".alert-title__hint").innerHTML = "Please check your undelegation details before proceeding";
+        this.element.querySelector(".page-nav-center").innerHTML = __("metapaview.undelegation");
+        this.element.querySelector(".alert-title span").innerHTML = __("metapaview.undelegationrequest");
+        this.element.querySelector(".alert-title__hint").innerHTML = __("metapaview.undelegationrequestpleasecheck");
         xD(this.element.qs("metapay.date").parentElement).hide();
         xD(this.element.qs("metapay.notes").parentElement).hide();
         xD(this.element.qs("metapay.vendor").parentElement).hide();
@@ -37,8 +37,8 @@ class UndelegateAlertView extends View {
         xD(this.element.qs("metapay.value").parentElement).hide();
         this.element.qs("metapay.to").value = BlockchainLib.hashCollapse(this.node.address);
         this.element.qs("metapay.order").value = escapeHtml(this.node.name);
-        this.element.qs("metapay.order.title").innerHTML = "Node:";
-        this.element.qs("metapay.to.title").innerHTML = "Address:";
+        this.element.qs("metapay.order.title").innerHTML = __("metapaview.node");
+        this.element.qs("metapay.to.title").innerHTML = __("metapaview.toaddress");
         /** @type {HTMLElement|xD} */
         this.selectWalletElement = this.element.qs("action.selectwallet");
         /** @type {HTMLElement|xD} */
