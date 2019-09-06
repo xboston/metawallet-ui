@@ -237,8 +237,7 @@ window.appLang = {
     // SettingsView
 
     "settings.title": "Settings",
-
-    "settings.menu.locale": "Locale",
+    "settings.menu.locale": "<i class=\"setting-btn-icon icon icon-round-language\"></i>Locale",
     "settings.menu.wallets": "Wallets settings",
     "settings.menu.security": "Security",
     "settings.menu.password": "Account password",
