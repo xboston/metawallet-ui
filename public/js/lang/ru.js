@@ -253,7 +253,7 @@ window.appLang = {
     // LocaleSettingsView
 
     "settings.locale.title": "Языковые настройки",
-    "settings.locale.language": "Язык",
+    "settings.locale.language": "<i class=\"setting-btn-icon icon icon-round-language-rus\"></i>Язык",
     "settings.locale.en": "English",
     "settings.locale.ru": "Русский",
 
