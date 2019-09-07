@@ -237,7 +237,7 @@ window.appLang = {
 
     "settings.title": "Настройки",
 
-    "settings.menu.locale": "Язык",
+    "settings.menu.locale": "<i class=\"setting-btn-icon icon icon-round-language-rus\"></i> Язык",
     "settings.menu.wallets": "Кошельки",
     "settings.menu.security": "Безопасность",
     "settings.menu.password": "Пароль",
@@ -253,7 +253,7 @@ window.appLang = {
     // LocaleSettingsView
 
     "settings.locale.title": "Языковые настройки",
-    "settings.locale.language": "<i class=\"setting-btn-icon icon icon-round-language-rus\"></i>Язык",
+    "settings.locale.language": "Язык",
     "settings.locale.en": "English",
     "settings.locale.ru": "Русский",
 
@@ -492,5 +492,5 @@ window.timeToDateTime = function (time, date) {
  */
 window.pluralize = function (count, words) {
     var cases = [2, 0, 1, 1, 1, 2];
-    return count + ' ' + words[ (count % 100 > 4 && count % 100 < 20) ? 2 : cases[ Math.min(count % 10, 5)] ];
-}
+    return count + " " + words[ (count % 100 > 4 && count % 100 < 20) ? 2 : cases[ Math.min(count % 10, 5)] ];
+};
