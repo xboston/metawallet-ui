@@ -225,6 +225,10 @@ class WalletView extends View {
             this.actionSavePkElement.show();
         }
         this.walletCardSubView.update();
+
+        if (this.wallet.currencyId !== CURRENCY_ID_MHC) {
+            this.element.qs("actions.delegations").hide();
+        }
     }
     clearTransactionSubViews () {
         for (let transactionSubView of Object.values(this._transactionSubViews)) {
