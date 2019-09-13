@@ -8,7 +8,7 @@ class NodesView extends View {
             dataSelector: "view.nodes"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /**
          * @type {HTMLElement|xD}
          * @private

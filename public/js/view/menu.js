@@ -10,7 +10,7 @@ class MenuView extends View {
             cssDisplayProp: "flex"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this.element.querySelector(".menu-profile--email").innerHTML = this.app.user.login;

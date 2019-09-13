@@ -10,7 +10,7 @@ class MetaPayAlertView extends View {
             cssDisplayProp: "flex"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         this.metaPayParams = MetaHashLib.getMetapayParams(config.metaPayUrl);
         /** @type {Currency} */
         this.currency = new Currency({

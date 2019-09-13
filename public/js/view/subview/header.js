@@ -8,7 +8,7 @@ class HeaderSubView extends View {
             type: VIEW_SUBVIEW
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         // console.log("HeaderSubView.onStarted");

@@ -8,7 +8,7 @@ class TabsSubView extends View {
             type: VIEW_SUBVIEW
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {Object<number, TabConfig>} */
         this._tabs = config.tabs;
         /** @type {Object<number, HTMLElement|xD>} */

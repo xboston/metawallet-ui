@@ -10,7 +10,7 @@ class WalletSelectAlertView extends View {
             cssDisplayProp: "flex"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {number} */
         this.currencyId = config.currencyId;
         /** @type {string} */

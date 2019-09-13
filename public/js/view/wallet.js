@@ -18,7 +18,7 @@ class WalletView extends View {
                 }.bind(null, this)
             })
         ];
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {Wallet} */
         this.wallet = config.wallet;
     }

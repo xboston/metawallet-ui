@@ -8,7 +8,7 @@ class AuthView extends View {
             dataSelector: "view.auth"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this.element.querySelector(".auth-form .btn-primary").onclick = function () {

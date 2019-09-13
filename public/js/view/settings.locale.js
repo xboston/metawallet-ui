@@ -8,7 +8,7 @@ class LocaleSettingsPage extends View {
             dataSelector: "view.settings.locale"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this.element.querySelectorAll("[name=settings-locale]").forEach(function ( /** @type {HTMLElement} */ element) {

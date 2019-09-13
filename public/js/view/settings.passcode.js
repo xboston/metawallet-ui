@@ -8,7 +8,7 @@ class PasscodeSettingsView extends View {
             dataSelector: "view.settings.passcode"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {Array<string>} */
         this.passcodeSettings = [];
     }

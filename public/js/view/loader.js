@@ -24,7 +24,7 @@ class LoaderView extends View {
                 }.bind(null, this)
             })
         ];
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this.progress = 0;

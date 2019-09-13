@@ -8,7 +8,7 @@ class NodeSubView extends View {
             type: VIEW_SUBVIEW
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {ServerNode} */
         this.node = config.node;
     }

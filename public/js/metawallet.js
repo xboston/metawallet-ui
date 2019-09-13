@@ -5,7 +5,7 @@
 class MetaWallet extends App {
     constructor (config) {
         super(config, config);
-        App.apply(this, arguments);
+        // App.apply(this, arguments);
         /**
          * @type {Object}
          * @private

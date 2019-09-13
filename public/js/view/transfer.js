@@ -9,7 +9,7 @@ class TransferView extends View {
             clone: true,
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {Wallet} */
         this.wallet = config.wallet;
         /** @type {?MetaPayParams} */

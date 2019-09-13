@@ -8,7 +8,7 @@ class TransactionSubView extends View {
             type: VIEW_SUBVIEW
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {Transaction} */
         this.transaction = config.transaction;
         /** @type {?Wallet} */

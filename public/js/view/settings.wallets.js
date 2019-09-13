@@ -8,7 +8,7 @@ class WalletsSettingsView extends View {
             dataSelector: "view.settings.wallets"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this.element.querySelectorAll("[name='settings-wallets-show']").forEach(function ( /** @type {HTMLElement} */ element) {

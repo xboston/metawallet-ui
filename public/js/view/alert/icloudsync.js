@@ -10,7 +10,7 @@ class iCloudSyncAlertView extends View {
             cssDisplayProp: "flex"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this.element.querySelector("button").onclick = function () {

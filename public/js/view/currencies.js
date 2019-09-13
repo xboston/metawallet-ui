@@ -9,7 +9,7 @@ class CurrenciesView extends View {
             clone: true
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this["eventListener.WalletCollection.onLoaded"] = function () {

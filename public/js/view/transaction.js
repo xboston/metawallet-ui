@@ -9,7 +9,7 @@ class TransactionView extends View {
             type: VIEW_ALERT_SLIDE,
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {Wallet} */
         this.wallet = config.wallet;
         /** @type {?Transaction} */

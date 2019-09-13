@@ -8,7 +8,7 @@ class SettingsView extends View {
             dataSelector: "view.settings"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         xD(document.querySelector(".settings")).show();

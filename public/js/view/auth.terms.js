@@ -8,7 +8,7 @@ class TermsView extends View {
             dataSelector: "view.terms"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         /** @type {HTMLButtonElement} */

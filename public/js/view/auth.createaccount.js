@@ -8,7 +8,7 @@ class CreateAccountView extends View {
             dataSelector: "view.createaccount"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         /** @type {HTMLElement|xD} */

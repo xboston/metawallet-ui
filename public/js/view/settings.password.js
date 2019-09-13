@@ -8,7 +8,7 @@ class PasswordSettingsView extends View {
             dataSelector: "view.settings.password"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this.element.querySelector(".settings-actions .btn-primary").onclick = function () {

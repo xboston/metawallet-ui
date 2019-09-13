@@ -8,7 +8,7 @@ class ResetPasswordView extends View {
             dataSelector: "view.resetpassword"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this.element.querySelector(".auth-form .btn-primary").onclick = function () {

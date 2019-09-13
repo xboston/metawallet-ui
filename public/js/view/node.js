@@ -8,7 +8,7 @@ class NodeView extends View {
             dataSelector: "view.node"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {ServerNode} */
         this.node = config.node;
         /**

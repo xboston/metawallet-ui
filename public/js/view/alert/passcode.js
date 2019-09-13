@@ -8,7 +8,7 @@ class PasscodeAlertView extends View {
             dataSelector: "view.passcode"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {string} */
         this.title = config["title"] || "passcodemodalview.title";
         /** @type {?string} */

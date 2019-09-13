@@ -8,7 +8,7 @@ class DelegationSubView extends View {
             type: VIEW_SUBVIEW
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {Delegation} */
         this.delegation = config.delegation;
         /** @type {Wallet} */

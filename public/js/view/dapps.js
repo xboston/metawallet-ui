@@ -8,7 +8,7 @@ class DAppsView extends View {
             dataSelector: "view.dapps"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
 
     onStarted () {

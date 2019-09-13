@@ -9,7 +9,7 @@ class WalletsView extends View {
             clone: true
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {number} */
         this.currencyId = config.currencyId;
     }

@@ -8,7 +8,7 @@ class SupportView extends View {
             dataSelector: "view.support"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this.element.qs("version.app").innerHTML = this.app.env.appVersion + "." + this.app.env.build;

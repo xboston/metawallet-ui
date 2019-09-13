@@ -10,7 +10,7 @@ class OfferPasscodeAlertView extends View {
             cssDisplayProp: "flex"
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
     }
     onStarted () {
         this.element.qs("action.yes").onclick = function () {

@@ -9,7 +9,7 @@ class DelegationNodeSubView extends View {
             cssDisplayProp: "flex",
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {Delegation} */
         this.delegation = config.delegation;
         /** @type {Wallet} */

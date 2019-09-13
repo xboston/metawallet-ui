@@ -8,7 +8,7 @@ class WalletSubView extends View {
             type: VIEW_SUBVIEW
         });
         super(config, config);
-        View.apply(this, arguments);
+        // View.apply(this, arguments);
         /** @type {Wallet} */
         this.wallet = config.wallet;
     }
